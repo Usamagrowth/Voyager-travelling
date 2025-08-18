@@ -5,7 +5,7 @@ function App() {
 
   return (
     <section>
-      <Home></Home>
+      <Home />
     </section>
   )
 }
