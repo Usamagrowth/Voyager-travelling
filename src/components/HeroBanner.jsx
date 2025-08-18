@@ -61,8 +61,40 @@ const HeroBanner = () => {
                                     <div className="form-content grid">
                                         <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Location</label>
                                         <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
+                                            <option>All City</option>
+                                            <option>London</option>
+                                            <option>Canada</option>
+                                            <option>Denmark</option>
+                                            <option>Finland</option>
+                                        </select>
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Departure Month</label>
+                                        <input className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="date" name='name' id='name' placeholder='Enter your destination' />
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Proceed</label>
+                                        <button className='bg-[#113D48] text-white w-[220px] p-5 rounded-[5px]'> Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div className="form-wrapper tours hidden">
+                            <form action="">
+                                <div className="hotel-wrapper flex justify-between items-center">
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Destination</label>
+                                        <input className='bg-[#F7F7F7] w-[220px] p-5 rounded-[5px]' type="text" name='name' id='name' placeholder='Enter your destination' />
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Price</label>
+                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
                                             <option value="">
-                                                All city
+                                                Price
                                             </option>
                                             <option value="">
                                                 #1000
@@ -76,6 +108,70 @@ const HeroBanner = () => {
                                             <option value="">
                                                 #2000
                                             </option>
+                                        </select>
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Location</label>
+                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
+                                            <option>All City</option>
+                                            <option>London</option>
+                                            <option>Canada</option>
+                                            <option>Denmark</option>
+                                            <option>Finland</option>
+                                        </select>
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Departure Month</label>
+                                        <input className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="date" name='name' id='name' placeholder='Enter your destination' />
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Proceed</label>
+                                        <button className='bg-[#113D48] text-white w-[220px] p-5 rounded-[5px]'> Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div className="form-wrapper flight hidden">
+                            <form action="">
+                                <div className="hotel-wrapper flex justify-between items-center">
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Destination</label>
+                                        <input className='bg-[#F7F7F7] w-[220px] p-5 rounded-[5px]' type="text" name='name' id='name' placeholder='Enter your destination' />
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Price</label>
+                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
+                                            <option value="">
+                                                Price
+                                            </option>
+                                            <option value="">
+                                                #1000
+                                            </option>
+                                            <option value="">
+                                                #1300
+                                            </option>
+                                            <option value="">
+                                                #1500
+                                            </option>
+                                            <option value="">
+                                                #2000
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div className="form-content grid">
+                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Location</label>
+                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
+                                            <option>All City</option>
+                                            <option>London</option>
+                                            <option>Canada</option>
+                                            <option>Denmark</option>
+                                            <option>Finland</option>
                                         </select>
                                     </div>
 
