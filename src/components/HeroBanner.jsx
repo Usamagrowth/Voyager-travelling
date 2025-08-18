@@ -1,5 +1,3 @@
-import React from 'react'
-
 const HeroBanner = () => {
   return (
     <section className="hero-section p-[20px]">
