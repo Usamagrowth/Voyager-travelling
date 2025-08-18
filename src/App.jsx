@@ -1,12 +1,16 @@
 import './App.css'
-import Home from './pages/Home'
-
+import Team from "./pages/Team"
+import Teamdetails from './pages/Teamdetails'
 function App() {
 
   return (
     <section>
-      <Home></Home>
+         <Team/>   
+         <Teamdetails/>
     </section>
+  
+        
+    
   )
 }
 
