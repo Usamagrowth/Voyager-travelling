@@ -1,13 +1,18 @@
-import './App.css'
-import Home from './pages/Home'
+import "./App.css";
+import Places from "./components/Places";
+import Destination from "./pages/Destination";
+import DestinationDetails from "./pages/DestinationDetails";
+import Home from "./pages/Home";
 
 function App() {
-
   return (
     <section>
-      <Home></Home>
+      {/* <Home></Home> */}
+      {/* <Destination />
+      <Places /> */}
+      <DestinationDetails />
     </section>
-  )
+  );
 }
 
-export default App
+export default App;
