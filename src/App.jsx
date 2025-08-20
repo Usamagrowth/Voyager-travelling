@@ -1,13 +1,20 @@
-import './App.css'
-import Home from './pages/Home'
+import "./App.css";
+import Places from "./components/Places";
+import Destination from "./pages/Destination";
+import DestinationDetails from "./pages/DestinationDetails";
+import Home from "./pages/Home";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
-
   return (
     <section>
-      <Home />
+
+  
+=======
+  
+
     </section>
-  )
+  );
 }
 
-export default App
+export default App;

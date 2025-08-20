@@ -1,3 +1,4 @@
+
 import Rightside from "./Rightside"
 import Tour from "./Tour"
 import Tourdata from "./Tourdata"
@@ -9,7 +10,15 @@ const Home = () => {
     <section>
    <Tourdata />
    <Rightside />
-    </section>
+
+import HeroBanner from "../components/HeroBanner"
+
+const Home = () => {
+  return (
+    <div>
+
+    </div>
+
   )
 }
 
