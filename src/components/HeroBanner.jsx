@@ -1,14 +1,14 @@
 const HeroBanner = () => {
   return (
     <section className="hero-section p-[20px]">
-        <div className="hero-top bg-[url(https://images.unsplash.com/photo-1519922639192-e73293ca430e?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center bg-black/60 bg-blend-overlay h-screen rounded-[20px] w-[100%] lg:w-full">
+        <div className="hero-top bg-[url(https://images.unsplash.com/photo-1519922639192-e73293ca430e?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center bg-black/60 bg-blend-overlay h-[50vh] rounded-[20px] w-[100%] lg:w-full">
             <div className="container m-0">
-                <div className="hero-content pt-[300px] lg:pt-[400px] lg:px-[90px] px-[50px]">
+                <div className="hero-content max-[645px]:pt-[200px] sm:pt-[250px] lg:pt-[300px] lg:px-[90px] px-[50px] max-[436px]:px-[20px]">
                     <span className="sub-title text-white text-[18px] italic">
                         Get unforgettable pleasure with us
                     </span>
-                    <h1 className='lg:text-[53px] lg:w-[800px] md:text-[45px] text-[35px] font-[700] text-white lg:leading-[4rem] md:leading-[4rem] leading-[3rem]'>Discover Your Next Handpicked Journey</h1>
-                    <p className='text-white text-[16px] lg:w-[800px] w-[100%] leading-[2rem]'>There are many variations of passages of  available, but the majority have suffered alteration in some form, by injected humour words which don't look even slightly believable.</p>
+                    <h1 className='lg:text-[53px] lg:w-[800px] md:text-[45px] text-[30px] font-[700] text-white lg:leading-[4rem] md:leading-[4rem] leading-[3rem] max-[376px]:leading-[2.5rem] max-[376px]:text-[20px]'>Discover Your Next Handpicked Journey</h1>
+                    <p className='text-white lg:text-[16px] text-[14px] lg:w-[800px] w-[100%] leading-[1.5rem] max-[376px]:leading-[1.5rem] max-[376px]:text-[13px]'>There are many variations of passages of  available, but the majority have suffered alteration in some form, by injected humour words which don't look even slightly believable.</p>
                 </div>
             </div>
         </div>
