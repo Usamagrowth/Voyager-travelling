@@ -1,13 +1,21 @@
 
+import AboutUs from "./About"
+=======
+
 import Rightside from "./Rightside"
 import Tour from "./Tour"
 import Tourdata from "./Tourdata"
 
 
 
+
 const Home = () => {
   return (
     <section>
+
+     <AboutUs/>
+    </section>
+
    <Tourdata />
    <Rightside />
 
@@ -18,6 +26,7 @@ const Home = () => {
     <div>
 
     </div>
+
 
   )
 }
