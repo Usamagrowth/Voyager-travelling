@@ -1,5 +1,4 @@
 import React from 'react'
-import { CiFacebook } from "react-icons/ci";
 
 export const Teamdetails = () => {
   return (
@@ -273,7 +272,7 @@ export const Teamdetails = () => {
 
       </div>
     </div>
-  </div>a
+  </div>
 </div>
 
 </section>
