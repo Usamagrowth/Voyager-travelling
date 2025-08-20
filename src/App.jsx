@@ -4,7 +4,9 @@ import Contact from './pages/Contact'
 
 
 import Faq from './pages/Faq'
-import Home from './pages/Home'
+
+
+
 
 
 
@@ -15,26 +17,24 @@ import DestinationDetails from "./pages/DestinationDetails";
 import Home from "./pages/Home";
 import LoginPage from "./pages/LoginPage";
 
+import TourCard from './pages/Tour';
 
 
-
-import './App.css'
 import Activities from './pages/Activities'
-import Home from './pages/Home'
 
 
 function App() {
   return (
 
-    <div></div>
-  )
+    
+  
 
     <section>
 
-
+<TourCard/>
    <Contact/>
 
-      <LoginPage />
+
 
 
 
@@ -52,7 +52,7 @@ function App() {
 
 
     </section>
-
+  )
 }
 
 export default App;
