@@ -15,12 +15,18 @@ function App() {
   return (
     <section>
 
+
+  
+
+  
+
       <LoginPage />
 
     
       <Activities />
      
       
+
 
     </section>
   );
