@@ -115,7 +115,7 @@ export const Teamdetails = () => {
         <div >
           <div className="flex justify-between text-sm font-medium text-gray-700">
             <span>Language Skills</span>
-            <span className="text-blue-600">86%</span>
+            <span className="bg-cyan-500 ">86%</span>
           </div>
           <div className="w-full bg-gray-200  h-3">
             <div
