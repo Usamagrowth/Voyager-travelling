@@ -1,6 +1,10 @@
-import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
-import Travelsection from "./Travelsection";
+import Travelsection from "../assets/Components/Travelsection";
+import Statspage from "../assets/Components/Statspage";
+import Meettourguide from "../assets/Components/Meettourguide";
+import TravelTestimonial from "../assets/Components/Testimonial";
+import Testimonial from "../assets/Components/Testimonial";
+import Instagram from "../assets/Components/instagram";
 
 const AboutUs = () => {
   return (
@@ -69,6 +73,10 @@ const AboutUs = () => {
       </div>
      </section>
     <Travelsection/>
+    <Statspage/>
+    <Meettourguide/>
+    <Testimonial/>
+    <Instagram/>
     </div>
   );
 };
