@@ -3,8 +3,7 @@ import RightCards from "./Rightside"
 const RightsideData = () => {
   return (
     <div>
-
-    <RightCards/>
+  <RightCards />
     
     </div>
   )
