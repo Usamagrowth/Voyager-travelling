@@ -1,3 +1,4 @@
+
 import "./App.css";
 import Places from "./components/Places";
 import Destination from "./pages/Destination";
@@ -5,10 +6,22 @@ import DestinationDetails from "./pages/DestinationDetails";
 import Home from "./pages/Home";
 import LoginPage from "./pages/LoginPage";
 
+import './App.css'
+import Activities from './pages/Activities'
+import Home from './pages/Home'
+
+
 function App() {
   return (
     <section>
+
       <LoginPage />
+
+    
+      <Activities />
+     
+      
+
     </section>
   );
 }
