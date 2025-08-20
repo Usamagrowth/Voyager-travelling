@@ -273,7 +273,7 @@ export const Teamdetails = () => {
 
       </div>
     </div>
-  </div>
+  </div>a
 </div>
 
 </section>
