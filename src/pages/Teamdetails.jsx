@@ -1,4 +1,5 @@
 import React from 'react'
+import { CiFacebook } from "react-icons/ci";
 
 export const Teamdetails = () => {
   return (
@@ -90,7 +91,7 @@ export const Teamdetails = () => {
 
     <div className="bg-white-50 py-12">
   <div className="container mx-auto px-6 md:px-12">
-    <div className="flex flex-col md:flex-row gap-8">
+    <div className="flex flex-col md:flex-row gap-8 ">
       
       {/* Left Side */}
       <div className="md:w-1/2 space-y-5">
@@ -115,11 +116,11 @@ export const Teamdetails = () => {
         <div >
           <div className="flex justify-between text-sm font-medium text-gray-700">
             <span>Language Skills</span>
-            <span className="bg-cyan-500 ">86%</span>
+            <span className="text-gray-600">86%</span>
           </div>
           <div className="w-full bg-gray-200  h-3">
             <div
-              className="bg-blue-500 h-3 "
+              className="bg-cyan-500 h-3 "
               style={{ width: "86%" }}
             ></div>
           </div>
@@ -129,12 +130,12 @@ export const Teamdetails = () => {
         <div >
           <div className="flex justify-between text-sm font-medium text-gray-700">
             <span>Tour Guide</span>
-            <span className="text-blue-600">92%</span>
+            <span className="text-gray-600">72%</span>
           </div>
           <div className="w-full bg-gray-200  h-3">
             <div
-              className="bg-blue-500 h-3 "
-              style={{ width: "92%" }}
+              className="bg-cyan-500 h-3 "
+              style={{ width: "72%" }}
             ></div>
           </div>
         </div>
@@ -143,12 +144,12 @@ export const Teamdetails = () => {
         <div className='mt-4'>
           <div className="flex justify-between text-sm font-medium text-gray-700">
             <span>Planning</span> {/* corrected spelling */}
-            <span className="text-blue-600">92%</span>
+            <span className="text-gray-600">62%</span>
           </div>
           <div className="w-full bg-gray-200  h-3">
             <div
-              className="bg-blue-500 h-3 "
-              style={{ width: "92%" }}
+              className="bg-cyan-500 h-3 "
+              style={{ width: "62%" }}
             ></div>
           </div>
         </div>

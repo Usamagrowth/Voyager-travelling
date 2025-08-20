@@ -1,20 +1,2 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
-.share-hover{
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.share{
-    display: flex;
-}
-
-.share:hover.share-hover{
-    display: grid;
-}
-
-/* article:hover .share-hover{
-    display: grid;
-} */
