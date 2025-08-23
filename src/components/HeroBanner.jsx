@@ -1,197 +1,36 @@
 const HeroBanner = () => {
   return (
-    <section className="hero-section p-[20px]">
-        <div className="hero-top bg-[url(https://images.unsplash.com/photo-1519922639192-e73293ca430e?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center bg-black/60 bg-blend-overlay h-[50vh] rounded-[20px] w-[100%] lg:w-full">
-            <div className="container m-0">
-                <div className="hero-content max-[645px]:pt-[200px] sm:pt-[250px] lg:pt-[300px] lg:px-[90px] px-[50px] max-[436px]:px-[20px]">
-                    <span className="sub-title text-white text-[18px] italic">
-                        Get unforgettable pleasure with us
-                    </span>
-                    <h1 className='lg:text-[53px] lg:w-[800px] md:text-[45px] text-[30px] font-[700] text-white lg:leading-[4rem] md:leading-[4rem] leading-[3rem] max-[376px]:leading-[2.5rem] max-[376px]:text-[20px]'>Discover Your Next Handpicked Journey</h1>
-                    <p className='text-white lg:text-[16px] text-[14px] lg:w-[800px] w-[100%] leading-[1.5rem] max-[376px]:leading-[1.5rem] max-[376px]:text-[13px]'>There are many variations of passages of  available, but the majority have suffered alteration in some form, by injected humour words which don't look even slightly believable.</p>
-                </div>
-            </div>
+    <section class="lg:mx-3 ">
+      <section class="relative h-[100vh] w-full overflow-hidden inset-0 min-w-full min-h-full object-cover rounded-3xl bg-[url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg)]">
+        {/* Background Video */}
+        {/* <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline 
+          class="absolute inset-0 min-w-full min-h-full w-auto h-auto object-cover -translate-x-1/2 -translate-y-1/2 rounded-3xl z-[-1]"
+        >
+          <source src="https://videocdn.cdnpk.net/videos/debb744e-1ab9-5b01-a8d3-f3817cb8ebb9/horizontal/previews/clear/small.mp4?token=exp=1755966723~hmac=572eda58c45a41e91d25098a7dd5bf32956772e7507487678fca992ca1926603" type="video/mp4"></source>
+        </video> */}
+
+        
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 flex items-center justify-center h-full px-6 pt-24 md:pt-20">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="text-center text-white max-w-2xl">
+            <p className="italic text-lg mb-2">Get unforgettable pleasure with us</p>
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+              Discover Your Next<br />Handpicked Journey
+            </h1>
+            <p className="text-sm md:text-base text-gray-200">
+              There are many variations of passages of available, but the majority have suffered alteration in some form,
+              by injected humour words which don’t look even slightly believable.
+            </p>
+          </div>
         </div>
-
-        <div className="price_search-section mt-[20px] border border-solid border-black-5 rounded-[20px] py-[40px] px-[30px] w-full">
-            <div className="container">
-                <div className="hero-bottom">
-                    <div className="header-wrapper lg:flex md:flex sm:grid items-center justify-between mb-6">
-                        <div className="header-wrapper_title">
-                            <h2 className='text-[36px] font-[600] text-[#0a1f24] sm:mb-5'>Find The Best Place</h2>
-                        </div>
-
-                        <ul className="header-wrapper_nav flex items-center gap-3">
-                            <li className='border border-solid border-black-1 py-[10px] px-[20px] rounded-[5px]'><a href="" className="nav-link">Hotels</a></li>
-                            <li className='border border-solid border-black-1 py-[10px] px-[20px] rounded-[5px]'><a href="" className="nav-link">Tours</a></li>
-                            <li className='border border-solid border-black-1 py-[10px] px-[20px] rounded-[5px]'><a href="" className="nav-link">Flight</a></li>
-                        </ul>
-                    </div>
-
-                    <div className="header-nav_content">
-                        <div className="form-wrapper hotels">
-                            <form action="">
-                                <div className="hotel-wrapper lg:flex md:grid md:grid-cols-2 sm:grid-cols-1 gap-5 justify-between ">
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Destination</label>
-                                        <input className='bg-[#F7F7F7] w-[100%] p-5 rounded-[5px]' type="text" name='name' id='name' placeholder='Enter your destination' />
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Price</label>
-                                        
-                                        <select className='lg:w-[200px] w-[100%] p-5 rounded-[5px] text-[#c4c4c4] bg-[#F7F7F7]' type="text">
-                                            <option value="">
-                                                Price
-                                            </option>
-                                            <option value="">
-                                                #1000
-                                            </option>
-                                            <option value="">
-                                                #1300
-                                            </option>
-                                            <option value="">
-                                                #1500
-                                            </option>
-                                            <option value="">
-                                                #2000
-                                            </option>
-                                        </select>
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Location</label>
-                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] lg:w-[200px] w-[100%] p-5 rounded-[5px]' type="text">
-                                            <option>All City</option>
-                                            <option>London</option>
-                                            <option>Canada</option>
-                                            <option>Denmark</option>
-                                            <option>Finland</option>
-                                        </select>
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Departure Month</label>
-                                        <input className='bg-[#F7F7F7] text-[#c4c4c4] w-[100%] p-5 rounded-[5px]' type="date" name='name' id='name' placeholder='Enter your destination' />
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Proceed</label>
-                                        <button className='bg-[#113D48] text-white w-full p-5 rounded-[5px]'> Search</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        
-                        <div className="form-wrapper tours hidden">
-                            <form action="">
-                                <div className="hotel-wrapper flex justify-between items-center">
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Destination</label>
-                                        <input className='bg-[#F7F7F7] w-[220px] p-5 rounded-[5px]' type="text" name='name' id='name' placeholder='Enter your destination' />
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Price</label>
-                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
-                                            <option value="">
-                                                Price
-                                            </option>
-                                            <option value="">
-                                                #1000
-                                            </option>
-                                            <option value="">
-                                                #1300
-                                            </option>
-                                            <option value="">
-                                                #1500
-                                            </option>
-                                            <option value="">
-                                                #2000
-                                            </option>
-                                        </select>
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Location</label>
-                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
-                                            <option>All City</option>
-                                            <option>London</option>
-                                            <option>Canada</option>
-                                            <option>Denmark</option>
-                                            <option>Finland</option>
-                                        </select>
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Departure Month</label>
-                                        <input className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="date" name='name' id='name' placeholder='Enter your destination' />
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Proceed</label>
-                                        <button className='bg-[#113D48] text-white w-[220px] p-5 rounded-[5px]'> Search</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
-                        <div className="form-wrapper flight hidden">
-                            <form action="">
-                                <div className="hotel-wrapper flex justify-between items-center">
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Destination</label>
-                                        <input className='bg-[#F7F7F7] w-[220px] p-5 rounded-[5px]' type="text" name='name' id='name' placeholder='Enter your destination' />
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Price</label>
-                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
-                                            <option value="">
-                                                Price
-                                            </option>
-                                            <option value="">
-                                                #1000
-                                            </option>
-                                            <option value="">
-                                                #1300
-                                            </option>
-                                            <option value="">
-                                                #1500
-                                            </option>
-                                            <option value="">
-                                                #2000
-                                            </option>
-                                        </select>
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Location</label>
-                                        <select className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="text">
-                                            <option>All City</option>
-                                            <option>London</option>
-                                            <option>Canada</option>
-                                            <option>Denmark</option>
-                                            <option>Finland</option>
-                                        </select>
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Departure Month</label>
-                                        <input className='bg-[#F7F7F7] text-[#c4c4c4] w-[220px] p-5 rounded-[5px]' type="date" name='name' id='name' placeholder='Enter your destination' />
-                                    </div>
-
-                                    <div className="form-content grid">
-                                        <label className='text-[16px] font-[600] text-[#0a1f24] mb-3' htmlFor="name">Proceed</label>
-                                        <button className='bg-[#113D48] text-white w-[220px] p-5 rounded-[5px]'> Search</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </section>
     </section>
   )
 }
