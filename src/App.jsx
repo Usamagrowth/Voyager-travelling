@@ -1,21 +1,17 @@
 
-
 import Team from "./pages/Team";
-import Teamdetails from "./pages/Teamdetails";
-
-
-
+import Teamdetails from "./pages/Teamde
 
 
 function App() {
   return (
-
     
   
 
     <div>
       <Team/>
       <Teamdetails/>
+    
     </div>
 
 
@@ -23,9 +19,8 @@ function App() {
 
 
   
-        
     
-  )
+)
 }
 
 export default App;
