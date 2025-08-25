@@ -1,0 +1,13 @@
+.step{
+    position: relative;
+}
+
+.step::after{
+    content: '';
+    height: 100%;
+    border: 1.5px dashed #1ca8cb;
+    position: absolute;
+    top: 0;
+    left: 23px;
+    z-index: -10;
+}

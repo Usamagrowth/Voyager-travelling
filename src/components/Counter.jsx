@@ -48,13 +48,13 @@ const Counter = () => {
   }, []);
 
   return (
-    <section  data-aos="flip-up" data-aos-duration="700"
+    <div className="relative">
+    <section data-aos="zoom-in" data-aos-duration="2000"
       ref={sectionRef}
-      className="counter px-[50px] bg-[#1CA8CB] mt-16"
-    >
+      className="relative lg:px-20 bg-[#1CA8CB] mt-20">
       <div className="container">
         <div className="counter-wrapper py-[50px] flex justify-center">
-          <div className="max-w-[100%] w-[100%] mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="max-w-[100%] w-[100%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
             
             {/* Item 1 */}
             <div className="counter-content">
@@ -112,6 +112,7 @@ const Counter = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
