@@ -1,6 +1,6 @@
 const HeroBanner = () => {
   return (
-    <section class="lg:mx-3 ">
+    <section class="lg:mx-5">
       <section class="relative h-[100vh] w-full overflow-hidden inset-0 min-w-full min-h-full object-cover rounded-3xl bg-[url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg)]">
         {/* Background Video */}
         {/* <video 

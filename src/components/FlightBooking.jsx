@@ -4,7 +4,7 @@ const FlightBooking = () => {
   const [activeTab, setActiveTab] = useState("Tour");
 
   return (
-  <section data-aos="fade-down" data-aos-duration="1500" className="px-6 lg:px-8">
+  <section data-aos="fade-down" data-aos-duration="1500" className="lg:mx-5 mx-3">
       <section className="w-full mx-auto p-6 bg-white rounded-2xl shadow-sm mt-[20px] border border-solid border-black-5">
         {/* Tabs */}
         <div className="lg:flex md:flex sm:space-y-4 sm:grid justify-between items-center mb-6">

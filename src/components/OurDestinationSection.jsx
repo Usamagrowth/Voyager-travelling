@@ -6,13 +6,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';
 import OurDestinationCard from "./OurDestinationCard";
+import ButtonSecondary from "./ButtonSecondary";
 
 const OurDestinationSection = () => {
     useEffect(() => {
           AOS.init();
         }, []);
   return (
-    <section data-aos="fade-right" data-aos-duration="2000" className="w-full px-6 lg:px-8 mt-20">
+    <section data-aos="fade-right" data-aos-duration="2000" className="w-full lg:px-8 px-3 mt-20">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6"> 
             {/* Left Content */}
             <div className="flex-1">
@@ -26,9 +27,7 @@ const OurDestinationSection = () => {
 
             {/* Right Button */}
             <div className="flex-shrink-0">
-                <button className="bg-cyan-600 text-white px-6 py-3 rounded-full flex items-center gap-3 w-full lg:w-auto justify-center">
-                    Learn More <FaArrowRightLong />
-                </button>
+                <ButtonSecondary buttonText="Learn More"/>
             </div>
         </div>
 

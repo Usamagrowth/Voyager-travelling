@@ -7,6 +7,8 @@ import AboutImage4 from "../assets/imgs/plane-shape.png"
 import { FaArrowRightLong } from "react-icons/fa6"
 import { useEffect } from "react"
 import AboutSectionFeature from "./AboutSectionFeature";
+import Button from "./ButtonPrimary";
+import ButtonPrimary from "./ButtonPrimary";
 
 const AboutSection = () => {
 
@@ -14,11 +16,10 @@ const AboutSection = () => {
       AOS.init();
     }, []);
   return (
-    <div data-aos="zoom-in" data-aos-duration="2000" className="relative lg:mb-[100px] py-20">
-        <section className="about-us px-6 lg:px-8">
-            <div className="container">
-                <div className="about-us_wrapper w-fit lg:flex lg:gap-5 grid justify-between">
-                    <div  className="about-us_image relative w-full h-[100%]">
+    <section data-aos="zoom-in" data-aos-duration="2000" className="relative lg:mx-8 mx-3 mt-20 pb-20">
+        <div className="container">
+            <div className="about-us_wrapper w-fit lg:flex lg:gap-5 grid justify-between">
+                <div  className="about-us_image relative w-full h-[100%]">
                         <div className="lg:w-[329px] lg:h-[510px] lg:absolute w-[100%] h-[500px]">
                             <img src={AboutImage3} alt="" className="about-image3 w-full h-full object-cover border-[10px] border-solid border-white rounded-[20px] lg:left-[20px] top-0 lg:ml-10" />
                         </div>
@@ -92,44 +93,39 @@ const AboutSection = () => {
                                 <img className="about-image4 w-[] lg:grid hidden lg:absolute -z-10 right-[100px]" src={AboutImage4} alt="" />
                             </div>
                         </div>
-                    </div>
+                </div>
                     
-                    {/* Right: Text Content  */}
-                    <div className="about-us_content w-full">
-                        <div className="about-content-items">
-                            <div>
-                                <div className="mb-4">
-                                    <span className="text-[#1CA8CB] text-base font-medium sub-title">Get About Us</span>
-                                    <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl lg:leading-[3.5rem] leading-[2rem]">
-                                        We're Strived Only For The Best In The World
-                                    </h2>
-                                    <p className="text-gray-600 leading-relaxed mt-5">
-                                        There are many variations of passages available, but the majority have suffered
-                                        alteration in some form, by injected humour words which don’t look even slightly
-                                        believable injected humour words.
-                                    </p>
-                                </div>
+                <div className="about-us_content w-full">
+                    <div className="about-content-items">
+                        <div>
+                            <div className="mb-4">
+                                <span className="text-[#1CA8CB] text-base font-medium sub-title">Get About Us</span>
+                                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl lg:leading-[3.5rem] leading-[2rem]">
+                                    We're Strived Only For The Best In The World
+                                </h2>
+                                <p className="text-gray-600 leading-relaxed mt-5">
+                                    There are many variations of passages available, but the majority have suffered alteration in some form, by injected humour words which don’t look even slightly believable injected humour words.
+                                </p>
+                            </div>
 
                                 {/* Feature List  */}
-                                <div className="space-y-6">
-                                    <AboutSectionFeature featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
+                            <div className="space-y-6">
+                                <AboutSectionFeature featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
 
-                                    <AboutSectionFeature featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
-                                </div>
+                                <AboutSectionFeature featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
+                            </div>
 
                                 {/* Button  */}
-                                <div>
-
-                                    <button className='bg-[#113D48] text-white w-[] px-4 py-5 rounded-full flex items-center gap-3 mt-5'> Discover More <FaArrowRightLong /></button>
-                                </div>
-                    </div>
+                            <div className="mt-5 px-4 py-5">
+                                
+                                <ButtonPrimary buttonText="Discover More"/>
+                            </div>
                         </div>
                     </div>
-                    
-                </div>
+                </div> 
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
   )
 }
 

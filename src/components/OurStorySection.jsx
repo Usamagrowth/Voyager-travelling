@@ -1,9 +1,11 @@
 import { FaArrowRightLong, FaPlay } from 'react-icons/fa6'
+import ButtonSecondary from './ButtonSecondary'
+import ButtonPrimary from './ButtonPrimary'
 
 const OurStorySection = () => {
   return (
-    <div className=''>
-        <section data-aos="fade-right" data-aos-duration="2000" className="w-full px-6 lg:px-8 mt-20 text-center pb-20">
+    <div className='lg:px-8 px-3 mt-20'>
+        <section data-aos="fade-right" data-aos-duration="2000" className="w-full text-center pb-20">
             <div className="items-start lg:items-center gap-6 "> 
                 {/* Left Content */}
                 <div className="">
@@ -18,14 +20,10 @@ const OurStorySection = () => {
                 </div>
 
                 <div className='flex justify-center'>
-                    <div className="flex flex-col lg:flex-row gap-10 mt-5">
-                        <button className="bg-cyan-600 text-white px-6 py-3 rounded-full flex items-center gap-3 w-full lg:w-auto justify-center">
-                            Learn More <FaArrowRightLong />
-                        </button>
+                    <div className="flex flex-col lg:flex-row gap-5 mt-5">
+                        <ButtonSecondary buttonText="Contact Us"/>
 
-                        <button className="bg-cyan-600 text-white px-6 py-3 rounded-full flex items-center gap-3 w-full lg:w-auto justify-center">
-                            Learn More <FaArrowRightLong />
-                        </button>
+                        <ButtonPrimary buttonText="Book Now"/>
                     </div>
                 </div>
             </div>

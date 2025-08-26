@@ -1,10 +1,14 @@
 import AboutSection from "../Components/AboutSection"
 import Counter from "../components/Counter"
+import CtaSection from "../Components/CtaSection"
 import FeaturedTourSection from "../Components/FeaturedTourSection"
 import FlightBooking from "../Components/FlightBooking"
+import FooterSocial from "../Components/FooterSocial"
 import HeroBanner from "../components/HeroBanner"
+import NewsArticleSection from "../Components/NewsArticleSection"
 import OurDestinationSection from "../Components/OurDestinationSection"
 import OurStorySection from "../Components/OurStorySection"
+import TestinomySection from "../Components/TestinomySection"
 import WhyChooseUsSection from "../Components/WhyChooseUsSection"
 import "./Home.css"
 
@@ -19,6 +23,10 @@ const Home = () => {
       <WhyChooseUsSection></WhyChooseUsSection>
       <OurStorySection></OurStorySection>
       <FeaturedTourSection></FeaturedTourSection>
+      <CtaSection></CtaSection>
+      <TestinomySection></TestinomySection>
+      <NewsArticleSection></NewsArticleSection>
+      <FooterSocial></FooterSocial>
     </div>
   )
 }

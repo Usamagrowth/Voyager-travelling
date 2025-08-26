@@ -10,15 +10,15 @@ const WhyChooseUsSection = () => {
           AOS.init();
         }, []);
   return (
-    <section className="bg-[#F7F7F7] mt-20">
+    <section className="bg-[#F7F7F7] mt-20 lg:px-8 px-3">
         <div data-aos="zoom-in" data-aos-duration="2000" className="relative lg:mb-[100px] py-20">
-                <section className="why-choose-us px-6 md:px-20">
+                <section className="why-choose-us">
                     <div className="container">
                         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10">
                             {/* Left Content  */}
                             <div class="flex-1">
                                 {/* Top Text  */}
-                                <p class="text-[#1CA8CB] text-base font-medium mb-2">Why Choose Us</p>
+                                <p class="text-[#1CA8CB] text-base sub-title font-medium mb-2">Why Choose Us</p>
                                 <h2 class="text-4xl font-bold leading-tight mb-6">
                                 Get The Best Travel<br class="hidden md:block" /> Experience
                                 </h2>
