@@ -7,7 +7,7 @@ import img5 from "../assets/img5.jpg"
 import img6 from "../assets/img6.jpg"
 const Blog = () => {
   return (
-    <section className="flex flex-wrap items-center justify-center space-y-[100px]">
+    <section className="flex flex-wrap items-center justify-center">
         <Blogcards 
         blogimages={img1}
         blogdetails="The Surfing man Will Blow Your Mind"

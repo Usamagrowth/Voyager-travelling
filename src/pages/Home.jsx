@@ -1,34 +1,12 @@
 
-import AboutUs from "./About"
-=======
-
-import Rightside from "./Rightside"
-import Tour from "./Tour"
-import Tourdata from "./Tourdata"
-
-
-
+import AboutPage from "./About"
 
 const Home = () => {
   return (
     <section>
 
-     <AboutUs/>
-    </section>
+     <AboutPage/>
+        </section>
+   )}
 
-   <Tourdata />
-   <Rightside />
-
-import HeroBanner from "../components/HeroBanner"
-
-const Home = () => {
-  return (
-    <div>
-
-    </div>
-
-
-  )
-}
-
-export default Home
+   export default Home

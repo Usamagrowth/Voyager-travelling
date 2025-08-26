@@ -6,7 +6,7 @@ import TravelTestimonial from "../assets/Components/Testimonial";
 import Testimonial from "../assets/Components/Testimonial";
 import Instagram from "../assets/Components/instagram";
 
-const AboutUs = () => {
+const AboutPage = () => {
   return (
     <div className="w-full bg-white">
      <section>
@@ -81,4 +81,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutPage;
