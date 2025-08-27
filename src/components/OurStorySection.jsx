@@ -1,6 +1,6 @@
 import { FaArrowRightLong, FaPlay } from 'react-icons/fa6'
-import ButtonSecondary from './ButtonSecondary'
-import ButtonPrimary from './ButtonPrimary'
+import ButtonSecondary from './utilities/ButtonSecondary'
+import ButtonPrimary from './utilities/ButtonPrimary'
 
 const OurStorySection = () => {
   return (
@@ -30,7 +30,7 @@ const OurStorySection = () => {
         </section>
 
         <div className='flex justify-center'>
-            <div className='h-[500px] w-[90%] overflow-hidden bg-fixed bg-cover rounded-3xl bg-center bg-[url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg)] bg-black/40 bg-blend-overlay flex justify-center items-center'>    
+            <div className='h-[500px] w-[90%] overflow-hidden bg-fixed bg-cover rounded-3xl bg-center bg-[url(https://turmet-react.vercel.app/assets/img/video-bg.jpg)] bg-black/40 bg-blend-overlay flex justify-center items-center'>    
                 <div className='bg-[#1CA8CB] h-24 w-24 rounded-full flex justify-center items-center text-white'>
                     <FaPlay />
                 </div>     

@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';
 import OurDestinationCard from "./OurDestinationCard";
-import ButtonSecondary from "./ButtonSecondary";
+import ButtonSecondary from "./utilities/ButtonSecondary";
 
 const OurDestinationSection = () => {
     useEffect(() => {
@@ -77,31 +77,31 @@ const OurDestinationSection = () => {
         }}
                 >
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://images.unsplash.com/photo-1566891647538-0c59d6376997?q=80&w=678&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/01.jpg" destinationTitle="New Zealand" destinationNo="Hotel 1"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://images.unsplash.com/photo-1707836995891-7fc740cee8a9?q=80&w=755&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/02.jpg" destinationTitle="The Amazon" destinationNo="Hotel 1"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://images.unsplash.com/photo-1624517607344-edd8277b1ba3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/03.jpg" destinationTitle="New Zealand" destinationNo="Hotel 1"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://images.unsplash.com/photo-1713131184627-34d7cb5c7a80?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/04.jpg" destinationTitle="The Amazon" destinationNo="Hotel 1"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://images.unsplash.com/photo-1717354838520-f15c34112a98?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/05.jpg" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
                 </SwiperSlide>
                 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://images.unsplash.com/photo-1726950906833-1bc8d05713a2?q=80&w=1079&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/06.jpg" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://images.unsplash.com/photo-1641893548669-0962a2ea5b03?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/07.jpg" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
                 </SwiperSlide>
             </Swiper>
         </div>

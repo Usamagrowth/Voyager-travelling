@@ -3,7 +3,7 @@ import { TfiQuoteLeft } from 'react-icons/tfi'
 
 const TestimonyCard = ({ratingValue, testimonialText, testimonialName, testimonialPosition, reviewNo}) => {
   return (
-    <div className='bg-white px-12 py-14 rounded-2xl'>
+    <div className='bg-white px-12 py-14 rounded-2xl lg:w-[90%] w-[100%]'>
         <div className='flex lg:flex-row justify-between items-center lg:items-center gap-6'>
             <TfiQuoteLeft className='text-[#1CA8CB] text-[4rem]'/>
             <div className='flex gap-2'>

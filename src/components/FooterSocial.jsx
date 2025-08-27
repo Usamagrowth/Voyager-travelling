@@ -1,7 +1,8 @@
-import FooterSocialCard from "./FooterSocialCard"
+import { FaInstagram } from "react-icons/fa6"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';
+import FooterCarousel from "./FooterCarousel";
 
 const FooterSocial = () => {
   return (
@@ -14,10 +15,10 @@ const FooterSocial = () => {
             </div>
         </div>
 
-        <div className="mx-auto mt-10 flex justify-center">
+        <div className="mx-auto mt-10 justify-center">
             <Swiper
                 spaceBetween={30}
-                slidesPerView={4}
+                slidesPerView={6}
                 modules={[Autoplay]}
                 speed={3000} // smooth transition (2.5s)
                 autoplay={{
@@ -49,39 +50,39 @@ const FooterSocial = () => {
           },
           // desktops
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 15,
           },
 
           1280: {
-            slidesPerView: 4,
+            slidesPerView: 6,
             spaceBetween: 30,
           },
         }}
                 >
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/01.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/02.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/03.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/04.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/05.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/06.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/04.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FooterSocialCard/>
+                    <FooterCarousel footerCaurouselBg="https://turmet-react.vercel.app/assets/img/instagram/03.jpg"/>
                 </SwiperSlide>
             </Swiper>
         </div>

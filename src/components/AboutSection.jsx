@@ -7,8 +7,8 @@ import AboutImage4 from "../assets/imgs/plane-shape.png"
 import { FaArrowRightLong } from "react-icons/fa6"
 import { useEffect } from "react"
 import AboutSectionFeature from "./AboutSectionFeature";
-import Button from "./ButtonPrimary";
-import ButtonPrimary from "./ButtonPrimary";
+import Button from "./utilities/ButtonPrimary";
+import ButtonPrimary from "./utilities/ButtonPrimary";
 
 const AboutSection = () => {
 

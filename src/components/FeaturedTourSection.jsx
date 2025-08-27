@@ -74,31 +74,31 @@ const FeaturedTourSection = () => {
         }}
                 >
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://plus.unsplash.com/premium_photo-1718146019714-a7a0ab9e8e8d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" location="Thailand" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/01.jpg" location="Netherland" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                   <FeaturedTourCard locationBg="https://plus.unsplash.com/premium_photo-1661764174171-c29f85bd8a37?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" location="Thailand" featureTourTitle="5 Best Tips for an Amazing Molina Trip" featuredTourPrice="$49.00"/>
+                   <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/02.jpg" location="Thailand" featureTourTitle="5 Best Tips for an Amazing Molina Trip" featuredTourPrice="$49.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" location="Thailand" featureTourTitle="Discover Beautiful Moliva: Natures Paradise" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/03.jpg" location="Austria" featureTourTitle="Discover Beautiful Moliva: Natures Paradise" featuredTourPrice="$49.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://images.unsplash.com/photo-1465778893808-9b3d1b443be4?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" location="Thailand" featureTourTitle="Best Time Ever to Explore Molinas Nature" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/04.jpg" location="Singerpore" featureTourTitle="Best Time Ever to Explore Molinas Nature" featuredTourPrice="$49.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://images.unsplash.com/photo-1606820854416-439b3305ff39?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" location="Thailand" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/05.jpg" location="Maldives" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
                 </SwiperSlide>
                 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://plus.unsplash.com/premium_photo-1718146019167-110481171ad2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" location="Thailand" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/06.jpg" location="Bahamas" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://images.unsplash.com/photo-1598890777032-bde835ba27c2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" location="Thailand" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/07.jpg" location="Finland" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
                 </SwiperSlide>
             </Swiper>
         </div>
