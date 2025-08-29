@@ -6,7 +6,7 @@ const HeroBanner = () => {
     <section class="lg:mx-5">
       <section class="relative h-[100vh] w-full overflow-hidden inset-0 min-w-full min-h-full bg-cover bg-center rounded-3xl bg-[url(https://turmet-react.vercel.app/assets/img/hero/hero2.jpg)]">
 
-      <div className="relative z-10 px-6 pt-6 md:pt-6">
+      <div className="relative z-[2000] px-6 pt-6 md:pt-6">
         <Navbar/>
       </div>
         {/* Overlay */}
@@ -14,7 +14,7 @@ const HeroBanner = () => {
         
 
         {/* Hero Content */}
-        <div className="relative z-10 flex items-center h-full px-6 pt-24 md:pt-20">
+        <div className="relative z-10 flex items-center h-full px-6 pt-16 md:pt-14">
           <div data-aos="zoom-in" data-aos-duration="1000" className="lg:pl-10 text-white max-w-2xl">
             <p className="italic text-lg mb-2">Get unforgettable pleasure with us</p>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
