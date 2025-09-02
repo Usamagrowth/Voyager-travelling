@@ -1,4 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@300;600&display=swap');
+=======
+
+body{
+    font-family: "Kalam", sans-serif;
+}
+>>>>>>> 05e06f6191dac280f78f050f41ea5c8f9d34b313
