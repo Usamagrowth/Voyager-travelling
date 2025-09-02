@@ -1,14 +1,28 @@
-import Rightside from "./Rightside"
-import Tour from "./Tour"
-import Tourdata from "./Tourdata"
+
+import Accommodation from "../Component/Accommodation"
+import RightCards from "../Component/Rightside"
+import Tourdata from "../Component/Tourdata"
+import TourDetails from "../Component/TourDetails"
+import Button from "../Component/Utilities/Button"
 
 
 
 const Home = () => {
   return (
-    <section>
-   <Tourdata />
-   <Rightside />
+    <section className="w-full px-2">
+      <div className="flex  flex-col md:flex-row gap-6 w-full">
+        <div className=" min-w-0">
+          <Tourdata />
+        </div>
+        <div>
+          <RightCards />
+        </div>
+      </div>
+
+      <div>
+        <Button/>
+      </div>
+      {/* <TourDetails/> */}
     </section>
   )
 }
