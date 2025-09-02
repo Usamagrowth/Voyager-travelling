@@ -9,6 +9,8 @@ import Navbar from "../Components/Navbar"
 import NewsArticleSection from "../Components/NewsArticleSection"
 import OurDestinationSection from "../Components/OurDestinationSection"
 import OurStorySection from "../Components/OurStorySection"
+import TeamCard from "../Components/TeamCard"
+import TeamMemberSection from "../Components/TeamMemberSection"
 import TestinomySection from "../Components/TestinomySection"
 import WhyChooseUsSection from "../Components/WhyChooseUsSection"
 import "./Home.css"
@@ -28,6 +30,7 @@ const Home = () => {
       <TestinomySection></TestinomySection>
       <NewsArticleSection></NewsArticleSection>
       <FooterSocial></FooterSocial>
+      <TeamMemberSection></TeamMemberSection>
     </div>
   )
 }

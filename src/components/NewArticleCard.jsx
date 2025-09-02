@@ -27,7 +27,7 @@ const NewArticleCard = ({articleBg, articleTitle}) => {
                     </span>
                 </div>
             </div>
-        </div>
+    </div>
   )
 }
 
