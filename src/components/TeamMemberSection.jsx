@@ -1,7 +1,6 @@
 import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import TeamCard from './TeamCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io';
