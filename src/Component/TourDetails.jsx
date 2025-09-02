@@ -10,12 +10,13 @@ import Tourmapping from './Tourmapping'
 import Reviews from './Reviews'
 import ClientReview from './ClientReview'
 import AddReviews from './AddReviews'
+import olawale from '../assets/Bookingimage/olawale.png'
 
 
 const TourDetails = () => {
   return (
   <section className="m-0 p-0">
-  <div className="flex gap-5 items-start ml-10">
+  <div className="flex gap-1 items-start ml-10">
     {/* Left column: image + any content that follows */}
     <div className="w-[60%]">
       {/* Image block */}
@@ -99,18 +100,35 @@ const TourDetails = () => {
       </div>
     </div>
 
-    {/* Right column: form */}
-    <div className="border w-full max-w-md rounded-lg mt-4 mx-auto p-6 bg-white">
-      <h2 className="text-xl sm:text-2xl font-bold font-Manrope mb-6">Contact for booking</h2> 
+   <div className="flex gap-5 items-start ml-10">
+  {/* Left column */}
+  <div className="w-[60%]">
+    {/* ... left content here ... */}
+  </div>
+
+  {/* Right column (form + image) */}
+  <div className="w-full max-w-md mt-4 mx-auto flex flex-col items-center">
+    
+    {/* Form box */}
+    <div className="border w-full rounded-lg p-6 bg-white">
+      <h2 className="text-xl sm:text-2xl font-bold font-Manrope mb-6">
+        Contact for booking
+      </h2> 
       <div className="space-y-4">
         <input 
-        type="text" 
-        placeholder="Your Name"
-          className="w-full border bg-blue-100 rounded-lg p-3 focus:outline-none"/>
-        <input type="email" placeholder="Your Email"
-          className="w-full border bg-blue-100 rounded-lg p-3 focus:outline-none"/>
-        <textarea placeholder="Type Comment Here"
-          className="w-full h-40 border bg-blue-100 rounded-lg p-3 resize-none focus:outline-none"/>
+          type="text" 
+          placeholder="Your Name"
+          className="w-full border bg-blue-100 rounded-lg p-3 focus:outline-none"
+        />
+        <input 
+          type="email" 
+          placeholder="Your Email"
+          className="w-full border bg-blue-100 rounded-lg p-3 focus:outline-none"
+        />
+        <textarea 
+          placeholder="Type Comment Here"
+          className="w-full h-40 border bg-blue-100 rounded-lg p-3 resize-none focus:outline-none"
+        />
       </div>
       <div className="flex justify-center"> 
         <button className="w-full sm:w-[300px] h-[55px] text-white rounded-lg mt-6 bg-[#1CA8CB]">
@@ -118,7 +136,26 @@ const TourDetails = () => {
         </button>
       </div>
     </div>
+
+    {/* ✅ Image sits BELOW the form, not inside */}
+    <div className="mt-6 w-full relative">
+     
+      <img 
+        src={olawale} 
+        alt="Booking illustration" 
+        className="rounded-lg  h-70 w-full blur-[1px] object-cover"
+        
+      />
+      <div className='absolute text-white text-2xl font-semibold top-[10rem] left-1/2 transform -translate-x-1/2 text-center flex flex-col items-center w-[90%]'>
+        <h1>Book Now And Enjoy <br/> Amazing Savings </h1>
+      
+      </div>
+       
+    </div>
   </div>
+</div>
+
+  </div>  
 </section>
 
    
