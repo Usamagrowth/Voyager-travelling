@@ -9,7 +9,7 @@ import Instagram from "../assets/Components/instagram";
 const AboutPage = () => {
   return (
     <div className="w-full bg-white">
-     <section>
+     <section className="pl-12">
        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Images - Side-by-Side Style */}
         <div className="flex-1 relative h-[400px] flex items-center justify-center gap-4">

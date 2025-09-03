@@ -14,7 +14,7 @@ const Travelsection = () => {
 
   return (
     <div>
-      <section>
+      <section className="pl-12"> 
         <div
           className="relative mt-24 max-w-7xl mx-auto flex flex-col md:flex-row 
           bg-cover bg-center rounded-lg shadow-2xl overflow-hidden"
@@ -24,7 +24,7 @@ const Travelsection = () => {
           <div
             className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1680225571287-c165e7ed7ed5?q=80&w=870&auto=format&fit=crop')] bg-cover bg-center scale-105"
             data-aos="zoom-out"
-            data-aos-delay="50"
+            data-aos-delay="50" 
           ></div>
 
           {/* Black Overlay */}

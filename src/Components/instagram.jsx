@@ -40,7 +40,7 @@ const destinations = [
 
 const Gallery = () => {
   return (
-    <div className="max-w-7xl mx-auto py-8 px-4">
+    <div className="max-w-7xl mx-auto py-8 px-4 pl-12">
       <div className="text-center mb-9">
         <h1 className="text-4xl font-bold text-gray-800">
           Follow <span className="text-teal-500">Instagram</span>

@@ -31,7 +31,7 @@ const guides = [
 
 const Guides = () => {
   return (
-    <section className="bg-[beige] py-10 px-6">
+    <section className="bg-[beige] py-10 px-6 pl-12">
       <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-7xl mx-auto">
         
         {guides.map((guide) => (

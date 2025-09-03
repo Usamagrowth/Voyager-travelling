@@ -11,7 +11,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <section className="bg-[beige] py-20">
+    <section className="bg-[beige] py-20 pl-12">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         
         {/* left side with big image */}
