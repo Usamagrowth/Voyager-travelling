@@ -1,12 +1,19 @@
-
-import AboutPage from "./About"
+import AboutPage from "./About";
+import Rightside from "./Rightside";
+import Tour from "./Tour";
+import Tourdata from "./Tourdata";
 
 const Home = () => {
   return (
-    <section>
+    <div>
+      <AboutPage />
+      {/* Add other components as needed */}
+      {/* <Rightside /> */}
+      {/* <Tour /> */}
+      {/* <Tourdata /> */}
+    </div>
+  );
+};
 
-     <AboutPage/>
-        </section>
-   )}
+export default Home;
 
-   export default Home
