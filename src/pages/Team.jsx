@@ -55,36 +55,35 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="py-10 px-10">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-12    mx-auto">
-        
-        {teamMembers.map((member,guide) => (
+    <section className="py-10 px-6 sm:px-10 lg:px-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-20 gap-x-8 max-w-8xl mx-auto">
+        {teamMembers.map((member) => (
           <div
             key={member.id}
-            className="bg-white rounded-2xl shadow-lg overflow-visible relative w-[250px]"
+            className="bg-white rounded-2xl shadow-lg overflow-visible relative w-full max-w-xs mx-auto"
           >
             {/* Image */}
-            <div className="h-[280px] rounded-2xl overflow-hidden">
+            <div className="h-65 sm:h-72 md:h-80 rounded-2xl overflow-hidden">
               <img
                 src={member.img}
                 alt={member.name}
-                className="w-full h-[300px] object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
             {/* Floating white box */}
-            <div className="absolute left-1/2 -translate-x-1/2 bottom-5 translate-y-1/2 
-                            bg-white rounded-2xl shadow-md p-6 flex items-center justify-between w-[85%]">
+            <div className="absolute left-1/2 -translate-x-1/2 bottom-2 translate-y-1/2 
+                            bg-white rounded-2xl shadow-md px-4 py-6 flex items-center justify-between w-[85%]">
               <div>
-                <h3 className="font-bold text-lg text-gray-900">{member.name}</h3>
-                <p className="text-gray-500 text-sm">{member.role}</p>
+                <h3 className="font-[630] text-[1.23rem] text-gray-900">{member.name}</h3>
+                <p className="text-gray-500 text-[1.2rem]">{member.role}</p>
               </div>
 
              <div className="bg-white rounded-2xl shadow-lg overflow-visible relative">
   {/* Share button with hover social menu */}
-  <div className=" absolute bottom-7 right-2 group">
-    <button className="bg-cyan-500 p-2 rounded-full w-8 h-8 text-white hover:bg-cyan-600 transition">
-      <FiShare2 size={15} />
+  <div className=" absolute bottom-8 right-2 group">
+    <button className="bg-cyan-500 p-2 rounded-full w-9 h-9 sm:w-10 sm:h-10 text-white hover:bg-cyan-600 transition">
+      <FiShare2 size={20} className="w-5 h-5 items-center"/>
     </button>
 
     {/* Hidden menu (shows above the share button) */}

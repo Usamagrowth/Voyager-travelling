@@ -1,6 +1,5 @@
-
 import Team from "./pages/Team";
-import Teamdetails from "./pages/Teamde
+import Teamdetails from "./pages/Teamdetails";  
 
 
 function App() {
