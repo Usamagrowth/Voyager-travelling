@@ -1,23 +1,27 @@
-
-import './App.css'
-import Home from './pages/Home'
-
+import Team from "./pages/Team";
+import Teamdetails from "./pages/Teamdetails";  
 
 
-import './App.css'
-import Home from './pages/Home'
 
 function App() {
-
   return (
+    
+  
 
-    <section>
-      <Home />
-    </section>
 
-    <Home />
+    <div>
+      <Team/>
+      <Teamdetails/>
+    
+    </div>
 
-  )
+
+
+
+
+  
+    
+)
 }
 
 export default App
