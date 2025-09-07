@@ -6,10 +6,10 @@ import TravelTestimonial from "../assets/Components/Testimonial";
 import Testimonial from "../assets/Components/Testimonial";
 import Instagram from "../assets/Components/instagram";
 
-const AboutUs = () => {
+const AboutPage = () => {
   return (
     <div className="w-full bg-white">
-     <section>
+     <section className="pl-12">
        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Images - Side-by-Side Style */}
         <div className="flex-1 relative h-[400px] flex items-center justify-center gap-4">
@@ -81,4 +81,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutPage;
