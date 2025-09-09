@@ -1,27 +1,16 @@
-import Team from "./pages/Team";
-import Teamdetails from "./pages/Teamdetails";  
+
+import './App.css'
 
 
 
 function App() {
   return (
-    
-  
 
+    <section>
+      
+    </section>
+  )
 
-    <div>
-      <Team/>
-      <Teamdetails/>
-    
-    </div>
-
-
-
-
-
-  
-    
-)
 }
 
 export default App
