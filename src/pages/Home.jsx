@@ -1,3 +1,4 @@
+
 import AboutSection from "../Components/AboutSection"
 import Counter from "../components/Counter"
 import CtaSection from "../Components/CtaSection"
@@ -34,3 +35,4 @@ const Home = () => {
 }
 
 export default Home
+
