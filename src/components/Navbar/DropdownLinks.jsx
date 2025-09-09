@@ -1,5 +1,5 @@
 export const destinationLinks = [
-    { name: "Destination", link: "/" },
+    { name: "Destination", link: "/destinationPage" },
     { name: "Destination Details", link: "/" },
 ]
 

@@ -1,21 +1,22 @@
-import React from 'react'
 import image4 from '../assets/TourDetailsImages/image4.png' 
 import image3 from '../assets/TourDetailsImages/image3.png'
 import image from '../assets/TourDetailsImages/image.png'
 import image2 from '../assets/TourDetailsImages/image2.png'
 import { MdOutlineVerified } from 'react-icons/md'
-import Accommodation from './Accommodation'
-import Tourplan from './Tourplan'
-import Tourmapping from './Tourmapping'
-import Reviews from './Reviews'
-import ClientReview from './ClientReview'
-import AddReviews from './AddReviews'
+import Accommodation from '../Component/Accommodation'
+import Tourplan from '../Component/Tourplan'
+import Tourmapping from '../Component/Tourmapping'
+import Reviews from '../Component/Reviews'
+import ClientReview from '../Component/ClientReview'
+import AddReviews from '../Component/AddReviews'
 import olawale from '../assets/Bookingimage/olawale.png'
+import GlobalHeader from '../Components/GlobalHeader'
 
 
-const TourDetails = () => {
+const TourDetailsPage = () => {
   return (
   <section className="m-0 p-0">
+    <GlobalHeader headerTitle="Tour Details" headerLink="Tour Details"/>
   <div className="flex gap-1 items-start ml-10">
     {/* Left column: image + any content that follows */}
     <div className="w-[60%]">
@@ -153,13 +154,14 @@ const TourDetails = () => {
        
     </div>
   </div>
-</div>
+  </div>
 
-  </div>  
+  </div>
+  
 </section>
 
    
   )
 }
 
-export default TourDetails
+export default TourDetailsPage

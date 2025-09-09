@@ -14,7 +14,7 @@ export default function TourCard({ location,cardpics,people,days,resorts,button,
     return(
         
        <section>
-  <article className="border rounded-lg shadow-md bg-white max-w-sm sm:max-w-md md:max-w-lg mx-auto relative overflow-hidden">
+  <article className="border rounded-lg shadow-md bg-white relative overflow-hidden">
     
     {/* Heart Icon */}
     <div className="bg-black text-white rounded-lg absolute flex justify-center p-2 right-3 top-3">

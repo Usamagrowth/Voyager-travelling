@@ -5,8 +5,12 @@ import img3 from "../assets/img3.jpg"
 import img4 from "../assets/img4.jpg"
 import img5 from "../assets/img5.jpg"
 import img6 from "../assets/img6.jpg"
-const Blog = () => {
+import GlobalHeader from "../Components/GlobalHeader";
+const BlogPage = () => {
   return (
+    <div>
+      <GlobalHeader headerTitle="Blog" headerLink="Blog"/>
+    
     <section className="flex flex-wrap items-center justify-center">
         <Blogcards 
         blogimages={img1}
@@ -33,7 +37,8 @@ const Blog = () => {
         blogdetails="Get Best Advertiser In Your Side Pocket"
         />
     </section>
+    </div>
   )
 }
 
-export default Blog;
+export default BlogPage;

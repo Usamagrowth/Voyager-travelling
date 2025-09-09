@@ -1,6 +1,3 @@
-import React from 'react'
-import { MdOutlineVerified } from 'react-icons/md'
-
 const Tourmapping = () => {
   return (
     <section className='mt-6'>

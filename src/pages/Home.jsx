@@ -9,9 +9,9 @@ import HeroBanner from "../components/HeroBanner"
 import NewsArticleSection from "../Components/NewsArticleSection"
 import OurDestinationSection from "../Components/OurDestinationSection"
 import OurStorySection from "../Components/OurStorySection"
-import TeamMemberSection from "../Components/TeamMemberSection"
 import TestinomySection from "../Components/TestinomySection"
 import WhyChooseUsSection from "../Components/WhyChooseUsSection"
+import FooterSection from "../Components/FooterSection"
 import "./Home.css"
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
       <TestinomySection></TestinomySection>
       <NewsArticleSection></NewsArticleSection>
       <FooterSocial></FooterSocial>
-      <TeamMemberSection></TeamMemberSection>
+      <FooterSection></FooterSection>
     </div>
   )
 }

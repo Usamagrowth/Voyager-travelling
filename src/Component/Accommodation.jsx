@@ -1,5 +1,4 @@
 import React from 'react'
-import TourDetails from './TourDetails'
 import company1 from '../assets/TourDetailsImages/company1.png'
 import company2 from '../assets/TourDetailsImages/company2.png'
 import company3 from '../assets/TourDetailsImages/company3.png'

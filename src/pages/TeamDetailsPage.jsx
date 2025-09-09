@@ -6,11 +6,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io';
 import TeamCard from "../Components/TeamCard";
+import GlobalHeader from "../Components/GlobalHeader";
 
 
-export default function Teamdetails() {
+export default function TeamDetailsPage() {
   
   return (
+    <div>
+      <GlobalHeader headerTitle="Team Details" headerLink="Team Details"/>
     <section className="min-h-screen mt-10 py-10 px-4 md:px-20 space-y-16">
       {/* Main Profile Card */}
       <div className="flex flex-col sm:flex-row bg-white rounded-2xl border shadow-sm gap-x-3 px-4 py-3 md:px-6">
@@ -223,5 +226,6 @@ export default function Teamdetails() {
     </div>
 
     </section>
+    </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { FiShare2 } from "react-icons/fi";
 import { FaXTwitter, FaInstagram, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+import GlobalHeader from "../Components/GlobalHeader";
 
 const teamMembers = [
   {
@@ -53,8 +54,10 @@ const teamMembers = [
   },
 ];
 
-const Team = () => {
+const TeamPage = () => {
   return (
+    <div>
+      <GlobalHeader headerTitle="Team" headerLink="Team"/>
     <section className="py-10 px-6 sm:px-10 lg:px-16">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-20 gap-x-8 max-w-8xl mx-auto">
         {teamMembers.map((member) => (
@@ -114,7 +117,8 @@ const Team = () => {
 
       </div>
     </section>
+    </div>
   );
 };
 
-export default Team;
+export default TeamPage;

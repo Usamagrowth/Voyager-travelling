@@ -2,10 +2,15 @@ import React from 'react'
 import { IoLocationSharp } from 'react-icons/io5'
 import { LuMailPlus } from 'react-icons/lu'
 import { MdAddCall } from 'react-icons/md'
+import ContactFormAndMap from '../Components/ContactFormAndMap'
+import GlobalHeader from '../Components/GlobalHeader'
 
-const ContactDetails = () => {
+const ContactPage = () => {
   return (
-   <section className="bg-white flex justify-center items-center mt-20 px-3">
+    <div>
+      <GlobalHeader headerTitle="Contact US" headerLink="Contact Us"/>
+  <section className="bg-white mt-20 px-3">
+  <div className='flex justify-center items-center'>
   <div className="bg-white flex flex-col justify-center items-center md:flex-row lg:flex-row gap-5 w-full max-w-6xl">
 
     <div className="bg-[#f7f7f7] flex flex-col justify-center items-center w-full max-w-sm h-[300px] rounded-lg shadow-md text-center hover:bg-[#1ca8cb] p-5">
@@ -39,10 +44,12 @@ const ContactDetails = () => {
     </div>
 
   </div>
+  </div>
+
+  <ContactFormAndMap></ContactFormAndMap>
 </section>
-
-
+</div>
   )
 }
 
-export default ContactDetails
+export default ContactPage

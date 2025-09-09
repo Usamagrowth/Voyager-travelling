@@ -4,9 +4,10 @@ import { FaXTwitter } from 'react-icons/fa6'
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdEmail } from 'react-icons/md'
 
-const Footer = () => {
+const FooterSection = () => {
   return (
-    <section className="relative bg-[url('https://turmet-react.vercel.app/assets/img/footer/footer-bg.jpg')] min-h-[50vh] text-white flex flex-col items-center justify-center text-center bg-cover bg-center">
+    <section className="relative w-full bg-[url('https://turmet-react.vercel.app/assets/img/footer/footer-bg.jpg')] min-h-[50vh] text-white flex flex-col items-center justify-center text-center bg-cover bg-center overflow-hidden">
+      <div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black z-0"></div>
 
       <div className="flex flex-col lg:flex-row gap-7 space-x-7 relative z-10">
@@ -108,8 +109,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      </div>
     </section>
   )
 }
 
-export default Footer
+export default FooterSection

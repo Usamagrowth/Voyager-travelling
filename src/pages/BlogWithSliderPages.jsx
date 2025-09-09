@@ -4,8 +4,12 @@ import img1 from "../assets/img4.jpg"
 import img3 from "../assets/img2.jpg"
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 import Blogslideranddetail2rowcard from "../components/Blogslideranddetail2rowcard";
-const Blogwithslider = () => {
+import GlobalHeader from "../Components/GlobalHeader";
+const BlogWithSliderPages = () => {
   return (
+    <div>
+      <GlobalHeader headerTitle="Blog Classic" headerLink="Blog Classic"/>
+    
     <section className="flex  p-5 gap-[45px] lg:items-start justify-center">
    <div className="flex flex-col gap-5 items-center justify-center">
  <Blogwithslidercard
@@ -45,7 +49,8 @@ const Blogwithslider = () => {
  </div>
    <Blogslideranddetail2rowcard />
    </section>
+   </div>
   )
 }
 
-export default Blogwithslider;
+export default BlogWithSliderPages;

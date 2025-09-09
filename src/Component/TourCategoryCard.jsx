@@ -1,6 +1,6 @@
 import DestinationCard from "./DestinationCard"
 
-function RightCards() {
+function TourCategoryCard() {
   return (
     <div className="py-4">
       <div className='grid gap-6 
@@ -72,4 +72,4 @@ function RightCards() {
   )
 }
 
-export default RightCards
+export default TourCategoryCard

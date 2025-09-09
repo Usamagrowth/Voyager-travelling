@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
 import { pagesLinks } from "./DropdownLinks";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const PagesNav = () => {
     const [showDropdown, setShowDropdown] = useState(false);
@@ -20,12 +21,27 @@ const PagesNav = () => {
                 {showDropdown ? <FaAngleUp/> : <FaAngleDown/>}
             </div>
 
-            {showDropdown && (<article className="border-t-2 border-[#1CA8CB] rounded-bl-sm rounded-br-sm absolute z-50 top-6 left-0 w-[200px] h-fit bg-white shadow-lg text-[1rem] text-black p-4 space-y-4" data-aos="fade-up" data-aos-duration="700">
-                {pagesLinks.map((link, value) => (
-                <div key={value} className="w-full hover:text-[#1CA8CB]">
-                    {link.name}
-                </div>))}
-            </article>)}
+            {showDropdown && <article className="border-t-2 border-[#1CA8CB] rounded-bl-sm rounded-br-sm absolute z-50 top-6 left-0 w-[200px] h-fit bg-white shadow-lg" data-aos="fade-up" data-aos-duration="700">
+            <div className="w-full">
+                <ul className="text-[1rem] text-black p-4">
+                    <Link to="/activitiesPage">
+                        <li className="hover:text-[#1CA8CB] mb-4">Activites</li>
+                    </Link>
+                    <Link to="/activitiesDetails">
+                        <li className="hover:text-[#1CA8CB] mb-4">Activities Details</li>
+                    </Link>
+                    <Link to="/teamPage">
+                        <li className="hover:text-[#1CA8CB] mb-4">Our Team</li>
+                    </Link>
+                    <Link to="/teamDetails">
+                        <li className="hover:text-[#1CA8CB] mb-4">Team Details</li>
+                    </Link>
+                    <Link to="/faqpage">
+                        <li className="hover:text-[#1CA8CB]">Our FAQ</li>
+                    </Link>
+                </ul>
+            </div>
+            </article>}
         </div>
     )
 }

@@ -2,13 +2,14 @@ import { FaCheckCircle } from "react-icons/fa";
 import Travelsection from "../assets/Components/Travelsection";
 import Statspage from "../assets/Components/Statspage";
 import Meettourguide from "../assets/Components/Meettourguide";
-import TravelTestimonial from "../assets/Components/Testimonial";
 import Testimonial from "../assets/Components/Testimonial";
 import Instagram from "../assets/Components/instagram";
+import GlobalHeader from "../Components/GlobalHeader";
 
 const AboutPage = () => {
   return (
     <div className="w-full bg-white">
+      <GlobalHeader headerTitle="About Us" headerLink="About Us"/>
      <section className="pl-12">
        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left Images - Side-by-Side Style */}
