@@ -464,7 +464,7 @@ const calculatePrice = (from, to, passengers, tripType, luggage) => {
       <div className="col-span-1 md:col-span-5">
         <button
           type="submit"
-          className="w-full bg-teal-900 text-white font-semibold rounded-lg px-4 py-3"
+          className="w-full bg-[#1CA8CB] text-white font-semibold rounded-lg px-4 py-3"
           disabled={!room || nights <= 0}
         >
           Book Now
