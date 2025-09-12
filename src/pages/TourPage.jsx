@@ -1,4 +1,4 @@
-import TourCard from "../Component/TourCard"
+import TourCard from "../Components/TourCard"
 import cardpics from '../assets/cardpics.png'
 import card2 from '../assets/card2.png'
 import card3 from '../assets/card3.png'
@@ -8,26 +8,27 @@ import card6 from '../assets/card6.png'
 import card7 from '../assets/card7.png'
 import card8 from '../assets/card8.png'
 import card9 from '../assets/card9.png'
-import RightCards from "../Component/TourCategoryCard"
+import RightCards from "../Components/TourCategoryCard"
 import GlobalHeader from "../Components/GlobalHeader"
+import FooterSection from "../Components/FooterSection"
 const TourPage = () => {
        return (
        <div>
        <GlobalHeader headerTitle="Tour" headerLink="Tour"/>
-       <section className="lg:px-8 px-3 m-0 mt-2">
+       <section className="lg:px-8 px-3 mb-20 mt-20">
        <div className="flex gap-5">
        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5  py-2 w-full'>
               <article>
                      <TourCard 
-                            location="BROOKLYN NY"
-                            cardpics={cardpics} 
-                            people="50+" 
-                            duration="10 Days"
-                            resorts="Brooklyn Beach Resort Tour"
-                            button="Book Now"
-                            price="$59.00"
-                            days="/Per Day"
-                            rating="4.7"
+                     location="BROOKLYN NY"
+                     cardpics={cardpics} 
+                     people="50+" 
+                     duration="10 Days"
+                     resorts="Brooklyn Beach Resort Tour"
+                     button="Book Now"
+                     price="$59.00"
+                     days="/Per Day"
+                     rating="4.7"
                      />
               </article>
               <article>
@@ -138,6 +139,7 @@ const TourPage = () => {
        <RightCards/>
        </div>
        </section>
+       <FooterSection/>
        </div>
        )
 }

@@ -6,6 +6,9 @@ import { CiClock2 } from 'react-icons/ci'
 import { CiUser } from 'react-icons/ci'
 import {FaArrowRight } from 'react-icons/fa'
 import {FaArrowLeft } from 'react-icons/fa'
+import BookingButton from './utilities/BookingButton'
+import ButtonSecondary from './utilities/ButtonSecondary'
+import { Link } from 'react-router-dom'
 
 
 
@@ -66,14 +69,11 @@ export default function TourCard({ location,cardpics,people,days,resorts,button,
         <p>{price}</p>
         <h3 className="text-sm sm:text-xs">{days}</h3>
       </div>
+      <Link to="/bookingPage">
       <div className="flex items-center gap-2">
-        <button className="relative bg-[#1ca8cb70] text-[#1CA8CB] px-2 py-2 rounded-full text-xs sm:text-sm w-32">
-          <FaArrowRight  className="absolute right-3 top-1/2 -translate-y-1/2 text-[#29c9f1eb] text-xs sm:text-base" />
-          {button}
-          
-        </button>
-        
+        <ButtonSecondary buttonText="Book Now"/>
       </div>
+      </Link>
     </div>
 
   </article>

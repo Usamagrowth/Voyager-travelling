@@ -1,5 +1,6 @@
 import { FaArrowRight, FaRegComment } from 'react-icons/fa6'
 import { MdDateRange } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 const NewArticleCard = ({articleBg, articleTitle}) => {
   return (
@@ -21,10 +22,12 @@ const NewArticleCard = ({articleBg, articleTitle}) => {
                 <h3 className="text-[1.2rem] font-[700]"><a href="" className='hover:text-[#1CA8CB]'>{articleTitle}</a></h3>
 
                 <div className='flex justify-between items-start lg:items-center'>
+                    <Link to="/blogSlider">
                     <span className='flex gap-2 items-center hover:text-[#1CA8CB] text-[#535353] font-semibold text-[1rem]'>
-                        <a href="" className=''>Read More</a>
+                        <span>Read More</span>
                         <FaArrowRight />
                     </span>
+                    </Link>
                 </div>
             </div>
     </div>

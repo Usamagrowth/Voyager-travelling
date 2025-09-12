@@ -1,6 +1,7 @@
 import { FaArrowRightLong, FaPlay } from 'react-icons/fa6'
 import ButtonSecondary from './utilities/ButtonSecondary'
 import ButtonPrimary from './utilities/ButtonPrimary'
+import { Link } from 'react-router-dom'
 
 const OurStorySection = () => {
   return (
@@ -21,9 +22,13 @@ const OurStorySection = () => {
 
                 <div className='flex justify-center'>
                     <div className="flex flex-col lg:flex-row gap-5 mt-5">
+                        <Link to="/contactPage">
                         <ButtonSecondary buttonText="Contact Us"/>
+                        </Link>
 
+                        <Link to="/bookingPage">
                         <ButtonPrimary buttonText="Book Now"/>
+                        </Link>
                     </div>
                 </div>
             </div>

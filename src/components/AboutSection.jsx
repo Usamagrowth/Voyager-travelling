@@ -9,6 +9,7 @@ import { useEffect } from "react"
 import AboutSectionFeature from "./AboutSectionFeature";
 import Button from "./utilities/ButtonPrimary";
 import ButtonPrimary from "./utilities/ButtonPrimary";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
 
@@ -110,15 +111,16 @@ const AboutSection = () => {
 
                                 {/* Feature List  */}
                             <div className="space-y-6">
-                                <AboutSectionFeature featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
+                                <AboutSectionFeature sectionIcon="https://turmet-react.vercel.app/assets/img/check.png" featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
 
-                                <AboutSectionFeature featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
+                                <AboutSectionFeature sectionIcon="https://turmet-react.vercel.app/assets/img/check.png" featureTitle="Easy Booking System" featureText="Our hotel also prides itself on offering exceptional services."/>
                             </div>
 
                                 {/* Button  */}
                             <div className="mt-5 px-4 py-5">
-                                
+                                <Link to="/blogSlider">
                                 <ButtonPrimary buttonText="Discover More"/>
+                                </Link>
                             </div>
                         </div>
                     </div>

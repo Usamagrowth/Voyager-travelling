@@ -2,6 +2,10 @@ import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import Places from "../Components/Places";
 import GlobalHeader from "../Components/GlobalHeader";
+import OurStorySection from "../Components/OurStorySection";
+import FeaturedTourSection from "../Components/FeaturedTourSection";
+import FooterSection from "../Components/FooterSection";
+
 // import Card from "../components/Card";
 
 const DestinationPage = () => {
@@ -107,6 +111,9 @@ const DestinationPage = () => {
       <div>
         <Places />
       </div>
+      <OurStorySection/>
+      <FeaturedTourSection/>
+      <FooterSection/>
     </section>
   );
 };

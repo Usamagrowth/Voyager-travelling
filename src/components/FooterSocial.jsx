@@ -6,7 +6,7 @@ import FooterCarousel from "./FooterCarousel";
 
 const FooterSocial = () => {
   return (
-    <section data-aos="fade-right" data-aos-duration="2000" className="w-full mt-20 py-20 text-center bg-[#F7F7F7] lg:px-8 px-3">
+    <section data-aos="fade-right" data-aos-duration="2000" className="w-full py-20 text-center bg-[#F7F7F7] lg:px-8 px-3">
         <div className="items-start lg:items-center gap-6 ">
             <div className='flex justify-center'>
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl lg:leading-[3.5rem] leading-[2rem] w-[65%]">

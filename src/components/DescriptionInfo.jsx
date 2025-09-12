@@ -20,7 +20,7 @@ export default function DestinationInfo({
           alt={DescTitle}
           className="w-full h-64 object-cover rounded-t-lg"
         />
-        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/30 flex items-center justify-center rounded-t-lg">
           <h1 className="text-white text-3xl font-bold">{DescTitle}</h1>
         </div>
       </div>
@@ -31,15 +31,15 @@ export default function DestinationInfo({
           {DescName}
         </h2>
 
-        <p className="text-gray-700 mb-4">{Description1}</p>
+        <p className="text-gray-700 mb-4 leading-8">{Description1}</p>
 
-        <p className="text-gray-700 mb-4">{Description2}</p>
+        <p className="text-gray-700 mb-4 leading-8">{Description2}</p>
 
         {/* Extra text (only shows when expanded) */}
         {showMore && (
           <>
-            <p className="text-gray-700 mb-4">{Description3}</p>
-            <p className="text-gray-700 mb-6">{Description4}</p>
+            <p className="text-gray-700 mb-4 leading-8">{Description3}</p>
+            <p className="text-gray-700 mb-6 leading-8">{Description4}</p>
           </>
         )}
 

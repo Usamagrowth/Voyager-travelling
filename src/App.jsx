@@ -1,8 +1,6 @@
 
 import './App.css'
-import TourCard from './Component/TourCard'
-import Tourmapping from './Component/Tourmapping'
-import Tourplan from './Component/Tourplan'
+import TourCard from './Components/TourCard'
 import AboutPage from './pages/AboutPage'
 import ActivitiesDetailsPage from './pages/ActivitiesDetailsPage'
 import ActivitiesPage from './pages/ActivitiesPage'
@@ -20,6 +18,7 @@ import TourPage from './pages/TourPage'
 import ContactPage from "./pages/ContactPage"
 import { Route, Routes } from 'react-router-dom'
 import GlobalHeader from './Components/GlobalHeader'
+import BookingPage from "./pages/BookingPage"
 
 
 
@@ -30,7 +29,7 @@ function App() {
         <Route path='/' element={<Home></Home>}/>
         <Route path='/aboutPage' element={<AboutPage></AboutPage>}/>
         <Route path='/destinationPage' element={<DestinationPage></DestinationPage>}/>
-        <Route path='/globalHeader' element={<GlobalHeader></GlobalHeader>}/>
+        <Route path='/bookingPage' element={<BookingPage></BookingPage>}/>
         <Route path='/destinationDetails' element={<DestinationDetailsPage></DestinationDetailsPage>}/>
         <Route path='/tourPage' element={<TourPage></TourPage>}/>
         <Route path='/tourDetails' element={<TourDetailsPage></TourDetailsPage>}/>

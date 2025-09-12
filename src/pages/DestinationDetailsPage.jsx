@@ -3,6 +3,7 @@ import MapCard from "../Components/MapCard";
 import ReviewCard from "../Components/ReviewCard";
 import ReplyForm from "../Components/ReplyForm";
 import GlobalHeader from "../Components/GlobalHeader";
+import FooterSection from "../Components/FooterSection";
 // import DestinationInfo from "../components/DescriptionInfo";
 // import ReviewCard from "../components/ReviewCard";
 // import ReplyForm from "../components/ReplyForm";
@@ -13,7 +14,7 @@ const DestinationDetailsPage = () => {
     <section>
       <GlobalHeader headerTitle="Destination Details" headerLink="Destination Details"/>
 
-      <div className="mt-8  mx-auto p-6 bg-white shadow-md rounded-lg lg:grid lg:grid-cols-2 lg:gap-8">
+      <div className="mt-8 mx-auto p-6 bg-white shadow-md rounded-lg grid gap-8 lg:grid-cols-2 lg:gap-8">
         <DestinationInfo
           ImageUrl="https://i.postimg.cc/wj13qLjh/life-s-captured-sparks-wdmubbjp1z-Q-unsplash.jpg"
           DescTitle="New york"
@@ -57,9 +58,11 @@ const DestinationDetailsPage = () => {
         />
       </div>
 
-      <div className="mt-8">
+      <div className="mt-8 mb-8">
         <ReplyForm />
       </div>
+
+      <FooterSection/>
     </section>
   );
 };

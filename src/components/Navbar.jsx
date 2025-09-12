@@ -8,6 +8,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import MobileMenu from "./Navbar/MobileMenu";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import BookingButton from "./utilities/BookingButton";
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -37,6 +38,11 @@ const Navbar = () => {
               About Us
             </li>
           </Link>
+          <Link to="/bookingPage">
+            <li>
+              Bookings
+            </li>
+          </Link>
           <DestinationNav/>
           <TourNav/>
           <PagesNav/>
@@ -50,7 +56,9 @@ const Navbar = () => {
         </ul>
 
         <div className="lg:block hidden">
-          <NavButton buttonText="Get Started"/>
+          <Link to="/bookingPage">
+          <BookingButton buttonText="Book Now"/>
+          </Link>
         </div>
 
         <div className="bg-white lg:hidden p-3 rounded-xl text-black flex text-[1.5rem] z-[2000]" onClick={toggleMobileMenu}>

@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
-const TestinomySection = () => {
+const TestimonySection = () => {
     
   return (
     <section data-aos="zoom-in" data-aos-duration="2000" className="relative mt-20 py-20 bg-[#F7F7F7]">
@@ -70,4 +70,4 @@ const TestinomySection = () => {
   )
 }
 
-export default TestinomySection
+export default TestimonySection

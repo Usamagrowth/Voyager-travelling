@@ -7,6 +7,7 @@ import { Autoplay } from "swiper/modules";
 import 'swiper/css';
 import OurDestinationCard from "./OurDestinationCard";
 import ButtonSecondary from "./utilities/ButtonSecondary";
+import { Link } from "react-router-dom";
 
 const OurDestinationSection = () => {
     useEffect(() => {
@@ -27,7 +28,9 @@ const OurDestinationSection = () => {
 
             {/* Right Button */}
             <div className="flex-shrink-0">
+                <Link to="/destinationPage">
                 <ButtonSecondary buttonText="Learn More"/>
+                </Link>
             </div>
         </div>
 

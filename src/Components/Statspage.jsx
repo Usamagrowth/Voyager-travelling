@@ -18,17 +18,19 @@ const Statspage = () => {
   });
 
   return (
-   <section ref={ref} className="bg-teal-500 overflow-hidden">
+   <section ref={ref} className="bg-[#1CA8CB] overflow-hidden">
   <div className="w-full max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center px-4 sm:px-6 md:px-8 py-8">
     {stats.map((eachitem) => (
       <div 
         key={eachitem.id} 
         className="transition-transform duration-700 ease-in-out hover:scale-105"
       >
-        <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center bg-teal-900 rounded-full border-2 border-white mx-auto shadow-md text-white">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center bg-white/10 rounded-full mx-auto text-white">
+        <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center bg-white/20 rounded-full mx-auto text-white">
           {eachitem.icon}
+          </div>
         </div>
-        <h3 className="text-yellow-300 text-2xl sm:text-3xl md:text-4xl font-bold mt-3">
+        <h3 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mt-3">
           {inView ? (
             <CountUp end={eachitem.number} duration={3} separator="," />
           ) : (

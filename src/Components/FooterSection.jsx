@@ -3,6 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdEmail } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 const FooterSection = () => {
   return (
@@ -53,11 +54,17 @@ const FooterSection = () => {
               <hr className="border-t-4 border-[#1ca8cb] w-[150px]" />
             </div>
             <ul className="text-left text-lg text-white space-y-5">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Blog</li>
-              <li>Services</li>
-              <li>Tour</li>
+              <Link to="/"><li className='mb-3'>Home</li></Link>
+              <Link to="/aboutPage"><li className='mb-3'>About Us</li></Link>
+              <Link to="/destinationPage">
+              <li className='mb-3'>Destination</li>
+              </Link>
+              <Link to="/blogSlider">
+              <li className='mb-3'>Blog</li>
+              </Link>
+              <Link to="/tourPage">
+              <li className='mb-3'>Tour</li>
+              </Link>
             </ul>
           </div>
 

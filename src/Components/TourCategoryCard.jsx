@@ -1,4 +1,4 @@
-import DestinationCard from "./DestinationCard"
+import DestinationCard from "./utilities/DestinationCard"
 
 function TourCategoryCard() {
   return (

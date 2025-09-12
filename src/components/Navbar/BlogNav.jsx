@@ -24,11 +24,8 @@ const BlogNav = () => {
             {showDropdown && <article className="border-t-2 border-[#1CA8CB] rounded-bl-sm rounded-br-sm absolute z-50 top-6 left-0 w-[200px] h-fit bg-white shadow-lg" data-aos="fade-up" data-aos-duration="700">
             <div className="w-full">
                 <ul className="text-[1rem] text-black p-4">
-                    <Link to="/blogPage">
-                        <li className="hover:text-[#1CA8CB] mb-4">Blog</li>
-                    </Link>
                     <Link to="/blogSlider">
-                        <li className="hover:text-[#1CA8CB] mb-4">Blog With Slider</li>
+                        <li className="hover:text-[#1CA8CB] mb-4">Blog</li>
                     </Link>
                     <Link to="/blogDetails">
                         <li className="hover:text-[#1CA8CB]">Blog Details</li>

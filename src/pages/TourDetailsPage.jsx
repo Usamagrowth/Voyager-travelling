@@ -3,23 +3,27 @@ import image3 from '../assets/TourDetailsImages/image3.png'
 import image from '../assets/TourDetailsImages/image.png'
 import image2 from '../assets/TourDetailsImages/image2.png'
 import { MdOutlineVerified } from 'react-icons/md'
-import Accommodation from '../Component/Accommodation'
-import Tourplan from '../Component/Tourplan'
-import Tourmapping from '../Component/Tourmapping'
-import Reviews from '../Component/Reviews'
-import ClientReview from '../Component/ClientReview'
-import AddReviews from '../Component/AddReviews'
+import Accommodation from '../Components/Accommodation'
+// import Tourplan from '../Components/Tourplan'
+import Tourplan from "../Components/Tourplan"
+import Tourmapping from '../Components/Tourmapping'
+import Reviews from '../Components/Reviews'
+import ClientReview from '../Components/ClientReview'
+import AddReviews from '../Components/AddReviews'
 import olawale from '../assets/Bookingimage/olawale.png'
 import GlobalHeader from '../Components/GlobalHeader'
+import FooterSection from '../Components/FooterSection'
 
 
 const TourDetailsPage = () => {
   return (
+    <div>
   <section className="m-0 p-0">
     <GlobalHeader headerTitle="Tour Details" headerLink="Tour Details"/>
-  <div className="flex gap-1 items-start ml-10">
+    <div className='lg:px-8 px-3 mb-20 mt-20'>
+  <div className="lg:flex lg:gap-5 grid justify-between">
     {/* Left column: image + any content that follows */}
-    <div className="w-[60%]">
+    <div className="w-[100%]">
       {/* Image block */}
       <div 
         className="bg-green-400 sm:h-[350px] md:h-[400px] lg:h-[450px] h-[450px] relative rounded-xl bg-cover bg-center mt-[1rem]"
@@ -101,9 +105,9 @@ const TourDetailsPage = () => {
       </div>
     </div>
 
-   <div className="flex gap-5 items-start ml-10">
+   <div className="">
   {/* Left column */}
-  <div className="w-[60%]">
+  <div className="w-[100%]">
     {/* ... left content here ... */}
   </div>
 
@@ -157,8 +161,10 @@ const TourDetailsPage = () => {
   </div>
 
   </div>
-  
+  </div>
 </section>
+<FooterSection/>
+</div>
 
    
   )
