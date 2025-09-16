@@ -1,4 +1,3 @@
-import AOS from "aos";
 import "aos/dist/aos.css";
 import TestimonyCard from "./TestimonyCard";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -42,13 +41,16 @@ const TestimonySection = () => {
                                 
                             >
                                 <SwiperSlide>
-                                    <TestimonyCard ratingValue="4.7/5.0" testimonialText="There are many variations ofpassages of  available, but the majority have suffered alteration in some form, by injected humour,randomised words which do not look even slightly believable. If are going to use a passage of Lorem Ipsum, you need to be sure there is not anything" testimonialName="Esther Howard" testimonialPosition="Trader, USA" reviewNo="01/2000"/>
+                                    <TestimonyCard ratingValue="4.7/5.0" testimonialText="Voyager made planning my trip so effortless. From booking flights to discovering hidden gems, everything was seamless. I felt safe, informed, and excited every step of the way!" testimonialName="Sarah M." testimonialPosition="USA" reviewNo="01/2000"/>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <TestimonyCard ratingValue="4.7/5.0" testimonialText="There are many variations ofpassages of  available, but the majority have suffered alteration in some form, by injected humour,randomised words which do not look even slightly believable. If are going to use a passage of Lorem Ipsum, you need to be sure there is not anything" testimonialName="Esther Howard" testimonialPosition="Trader, USA" reviewNo="01/2000"/>
+                                    <TestimonyCard ratingValue="4.7/5.0" testimonialText="Traveling with kids can be stressful, but Voyager took care of all the details. The family-friendly activities and accommodations they suggested were perfect. We created memories we’ll cherish forever." testimonialName="The Martins" testimonialPosition="UK" reviewNo="02/2000"/>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <TestimonyCard ratingValue="4.7/5.0" testimonialText="There are many variations ofpassages of  available, but the majority have suffered alteration in some form, by injected humour,randomised words which do not look even slightly believable. If are going to use a passage of Lorem Ipsum, you need to be sure there is not anything" testimonialName="Esther Howard" testimonialPosition="Trader, USA" reviewNo="01/2000"/>
+                                    <TestimonyCard ratingValue="4.7/5.0" testimonialText="Our honeymoon was nothing short of magical. Voyager personalized our itinerary to match our dream destinations. The private beach dinner was the highlight of our trip!" testimonialName="Daniel & Aisha" testimonialPosition="Nigeria" reviewNo="03/2000"/>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <TestimonyCard ratingValue="4.7/5.0" testimonialText="As a solo traveler, I always look for safety and unique experiences. Voyager gave me both! I met incredible people and explored places I never would have found on my own." testimonialName="Kenji T." testimonialPosition="Japan" reviewNo="05/2000"/>
                                 </SwiperSlide>
 
                                 {/* Navigation Buttons (Right side, lg+ only) */}

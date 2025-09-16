@@ -1,10 +1,4 @@
 import Blogcards from "../components/Blogcards";
-import img1 from "../assets/img1.jpg"
-import img2 from "../assets/img2.jpg"
-import img3 from "../assets/img3.jpg"
-import img4 from "../assets/img4.jpg"
-import img5 from "../assets/img5.jpg"
-import img6 from "../assets/img6.jpg"
 import GlobalHeader from "../Components/GlobalHeader";
 const BlogPage = () => {
   return (
@@ -13,30 +7,32 @@ const BlogPage = () => {
     
     <section className="flex flex-wrap items-center justify-center">
         <Blogcards 
-        blogimages={img1}
+        blogimages="https://turmet-react.vercel.app/assets/img/news/08.jpg"
         blogdetails="The Surfing man Will Blow Your Mind"
         />
          <Blogcards 
-        blogimages={img2}
+        blogimages="https://turmet-react.vercel.app/assets/img/news/09.jpg"
         blogdetails="Supervisor Disapproved Of Latest Work"
         />
          <Blogcards 
-        blogimages={img3}
+        blogimages="https://turmet-react.vercel.app/assets/img/news/10.jpg"
         blogdetails="Get Best Advertiser In Your Side Pocket"
         />
          <Blogcards 
-        blogimages={img4}
+        blogimages="https://turmet-react.vercel.app/assets/img/news/11.jpg"
         blogdetails="Get Best Advertiser In Your Side Pocket"
         />
         <Blogcards 
-        blogimages={img5}
+        blogimages="https://turmet-react.vercel.app/assets/img/news/12.jpg"
         blogdetails="Supervisor Disapproved Of Latest Work"
         />
           <Blogcards 
-        blogimages={img6}
+        blogimages="https://turmet-react.vercel.app/assets/img/news/13.jpg"
         blogdetails="Get Best Advertiser In Your Side Pocket"
         />
     </section>
+
+    
     </div>
   )
 }

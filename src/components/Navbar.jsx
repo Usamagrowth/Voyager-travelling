@@ -9,6 +9,7 @@ import MobileMenu from "./Navbar/MobileMenu";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import BookingButton from "./utilities/BookingButton";
+import brandLogo from "../assets/imgs/logo.svg"
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
       <div className="flex items-center font-medium justify-around">
         <Link to="/">
         <div className="z-[2000] p-5 lg:w-auto w-full flex justify-between">
-          <img src="https://turmet-react.vercel.app/assets/img/logo/white-logo.svg" alt="" className="md:cursor-pointer h-9" />
+          <img src={brandLogo} alt="" className="cursor-pointer w-[150px]" />
         </div>
         </Link>
 
@@ -36,11 +37,6 @@ const Navbar = () => {
           <Link to="/aboutPage">
             <li>
               About Us
-            </li>
-          </Link>
-          <Link to="/bookingPage">
-            <li>
-              Bookings
             </li>
           </Link>
           <DestinationNav/>

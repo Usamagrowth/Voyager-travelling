@@ -7,24 +7,20 @@ const Tourplan = () => {
 
   const faqs = [
     {
-      question: "How Do I Book A Tour With Your Agency",
-      answer: "You can book a tour directly through our website or by contacting our customer service team.",
-      image: faq,
+      question: "How do I book a tour with your agency?",
+      answer: "You can book directly through our website or contact our support team for assistance.",
     },
     {
-      question: "What Payment Method Do You Accept",
-      answer: "We accept credit/debit cards, PayPal, and bank transfers for your convenience.",
-      image: faq,
+      question: "What payments do you accept?",
+      answer: "We accept major credit/debit cards, bank transfers, and secure online payment options.",
     },
     {
-      question: "Can I Customize My Travel Itinerary",
-      answer: "Yes! Our tours are fully customizable to suit your preferences.",
-      image: faq,
+      question: "Can I customize my travel itinerary?",
+      answer: "Yes, we offer flexible itineraries tailored to your preferences and travel style.",
     },
     {
-      question: "What is Your Cancellation Policy",
-      answer: "Cancellations are free up to 7 days before the trip. Later cancellations may incur a small fee.",
-      image: faq,
+      question: "What is your cancellation policy?",
+      answer: "Cancellations made within the allowed timeframe are eligible for a refund; specific terms vary by package.",
     },
   ];
 
@@ -55,11 +51,6 @@ const Tourplan = () => {
             {openIndex === index && (
               <div className="px-4 py-3 bg-white flex flex-col sm:flex-row gap-4">
                 <p>{faq.answer}</p>
-                <img
-                  src={faq.image}
-                  alt={faq.question}
-                  className="w-full sm:w-48 rounded-lg object-cover"
-                />
               </div>
             )}
           </div>

@@ -12,9 +12,9 @@ const FaqItem = ({ question, answer }) => {
       >
         {question}
         {open ? (
-          <MdKeyboardArrowUp className="text-2xl text-blue-500" />
+          <MdKeyboardArrowUp className="text-2xl text-[#1CA8CB]" />
         ) : (
-          <MdKeyboardArrowDown className="text-2xl text-blue-500" />
+          <MdKeyboardArrowDown className="text-2xl text-[#1CA8CB]" />
         )}
       </button>
       {open && <p className="mt-3 text-white">{answer}</p>}

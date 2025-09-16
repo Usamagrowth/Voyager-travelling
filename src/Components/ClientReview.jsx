@@ -1,5 +1,3 @@
-import React from 'react'
-import Client from '../assets/ClientReview/client1.png'
 import { FaStar } from 'react-icons/fa'
 
 const ClientReview = () => {
@@ -8,16 +6,16 @@ const ClientReview = () => {
   <h1 className="text-xl sm:text-2xl font-semibold">Clients Review</h1>
 
   {[ 
-    { name: "Omowaye Emmanuel", text: "Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy" },
-    { name: "Omowaye Boluwaji", text: "Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy" },
-    { name: "Omowaye Anjolaoluwa", text: "Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy" }
+    { name: "Shikhon Islam", text: "The trek was perfectly organized, and the guides were so friendly. I’ll definitely book again!" },
+    { name: "Ralph Edwards", text: "Everything from transport to accommodation was smooth. A truly stress-free vacation." },
+    { name: "Sohel Islam", text: "I loved how flexible the itinerary was. They really listened to what I wanted." }
   ].map((review, idx) => (
     <ul key={idx} className="mt-6">
       <li className="flex flex-col sm:flex-row gap-3 sm:gap-4">
         
         {/* Client Image */}
         <div className="flex-shrink-0">
-          <img className="rounded-lg h-20 w-20 sm:h-24 sm:w-24 object-cover" src={Client} alt="client" />
+          <img className="rounded-lg h-20 w-20 sm:h-24 sm:w-24 object-cover" src="https://turmet-react.vercel.app/assets/img/destails/client-1.jpg" alt="client" />
         </div>
 
         {/* Review Content */}

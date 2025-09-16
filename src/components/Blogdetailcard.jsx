@@ -11,7 +11,7 @@ const Blogdetailcard = () => {
 <div className="flex flex-col gap-5">
     <div className="flex lg:w-[650px] lg:h-[400px]  items-start space-x-5 space-y-5 ">
       <img className="rounded-xl w-[100%] h-[100%]" src={img3} alt="blog images" />
-      <p className="flex absolute bg-blue-500 rounded-xl w-[65px] h-[65px] items-center justify-center font-semibold text-2xl text-white">26<br/>Nov</p>
+      <p className="flex absolute bg-[#1CA8CB] rounded-xl w-[65px] h-[65px] items-center justify-center font-semibold text-2xl text-white">26<br/>Nov</p>
     </div>
   <div className="flex flex-row gap-5">
     <span className="flex flex-row gap-1 items-center"><RiAdminLine /> <p>By Admin</p></span>
@@ -80,7 +80,7 @@ const Blogdetailcard = () => {
      <div className="flex flex-col">
     <span className="flex space-x-8 lg:gap-[300px]">
       <h5 className="text-2xl fw-semibold">Leslie Alexander</h5>
-      <a href="" className="bg-blue-500 text-white rounded-[50px] w-fit h-fit px-4 py-1">Reply</a>
+      <a href="" className="bg-[#1CA8CB] text-white rounded-[50px] w-fit h-fit px-4 py-1">Reply</a>
     </span>
      <p>February 10, 2024 at 2:37 pm <br />
         Neque porro est qui dolorem ipsum quia quaed inventor veritatis et <br /> 
@@ -94,7 +94,7 @@ const Blogdetailcard = () => {
      <div className="flex flex-col">
      <span className="flex items-center space-x-8 lg:gap-[300px]">
       <h5 className="text-2xl fw-semibold">Stephen Leslie</h5>
-     <a href="" className="bg-blue-500 text-white rounded-[50px] w-fit h-fit px-4 py-1">Reply</a>
+     <a href="" className="bg-[#1CA8CB] text-white rounded-[50px] w-fit h-fit px-4 py-1">Reply</a>
      </span>
      <p className="flex">February 10, 2024 at 2:37 pm <br />
         Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi <br /> architecto
@@ -108,7 +108,7 @@ const Blogdetailcard = () => {
      <div className="flex flex-col">
       <span className="flex space-x-8 lg:gap-[300px]">
         <h5 className="text-2xl fw-semibold">John Alexander</h5>
-       <a href="" className="bg-blue-500 text-white rounded-[50px] w-fit h-fit px-4 py-1">Reply</a>
+       <a href="" className="bg-[#1CA8CB] text-white rounded-[50px] w-fit h-fit px-4 py-1">Reply</a>
      </span>
      <p>February 10, 2024 at 2:37 pm <br />
         Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto <br />
@@ -134,7 +134,7 @@ const Blogdetailcard = () => {
      <div className="flex h-[100px] border border-blue-500 p-2 rounded-[20px]">
      <textarea name="message" id="" placeholder="Messages" className="w-[100%]" />
      </div>
-     <button type="submit" className="w-fit flex gap-3 items-center bg-blue-500 text-white p-3 rounded-[30px] font-semibold">post comment <GrLinkNext /></button>
+     <button type="submit" className="w-fit flex gap-3 items-center bg-[#1CA8CB] text-white p-3 rounded-[30px] font-semibold">post comment <GrLinkNext /></button>
     </form>
     </div>
  </div>

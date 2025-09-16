@@ -1,66 +1,57 @@
-import React from 'react'
-import company1 from '../assets/TourDetailsImages/company1.png'
-import company2 from '../assets/TourDetailsImages/company2.png'
-import company3 from '../assets/TourDetailsImages/company3.png'
-import company4 from '../assets/TourDetailsImages/company4.png'
-import company5 from '../assets/TourDetailsImages/company5.png'
-import company6 from '../assets/TourDetailsImages/company6.png'
-import company7 from '../assets/TourDetailsImages/company7.png'
-import company8 from '../assets/TourDetailsImages/company8.png'
 
 const Accommodation = () => {
     const Lists =[
         {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company1 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/27.svg" ,   
 
         },
 
         {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company2 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/28.svg" ,   
 
         },
 
         {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company3 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/29.svg" ,   
 
         },
         {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company4 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/30.svg" ,   
 
         },
         {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company5 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/31.svg" ,   
 
         },
 
         {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company6 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/32.svg" ,   
 
         },
         
         {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company7 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/33.svg" ,   
 
         },
 
          {
          details:'Accommodation',
          hotels:'5 Star Hotels',
-         icon: company8 ,   
+         icon: "https://turmet-react.vercel.app/assets/img/icon/34.svg" ,   
 
         },
         

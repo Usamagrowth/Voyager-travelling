@@ -1,4 +1,3 @@
-import { FaInstagram } from "react-icons/fa6"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';

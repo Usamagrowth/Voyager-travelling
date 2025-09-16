@@ -4,10 +4,8 @@ import AboutImage1 from "../assets/imgs/about-img-1.jpg"
 import AboutImage2 from "../assets/imgs/about-img-2.jpg"
 import AboutImage3 from "../assets/imgs/about-img-3.jpg"
 import AboutImage4 from "../assets/imgs/plane-shape.png"
-import { FaArrowRightLong } from "react-icons/fa6"
 import { useEffect } from "react"
 import AboutSectionFeature from "./AboutSectionFeature";
-import Button from "./utilities/ButtonPrimary";
 import ButtonPrimary from "./utilities/ButtonPrimary";
 import { Link } from "react-router-dom";
 

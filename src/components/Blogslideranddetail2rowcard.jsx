@@ -10,7 +10,7 @@ const Blogslideranddetail2rowcard = () => {
             <h3 className="font-semibold text-2xl">Search</h3>
             <form action="#" className="flex relative flex-row justify-end items-end border h-[60px] w-[300px] border-blue-100 rounded-[20px] ">
               <input className="outline-none flex w-[100%] h-[100%]" type="text" placeholder="Search Here" />
-              <CiSearch className="flex absolute bg-blue-500 w-[50px] h-[60px] p-2 text-white " />
+              <CiSearch className="flex absolute bg-[#1CA8CB] w-[50px] h-[60px] p-2 text-white " />
               <button type="submit"></button>
             </form>
           </span>
@@ -32,7 +32,7 @@ const Blogslideranddetail2rowcard = () => {
             <img className="rounded-[20px] w-[100%] h-[100%]" src={img1} alt="tour date" />
             </div>
            <div className="flex flex-col">
-           <span className="flex gap-2 text-blue-500 items-center"><FaRegCalendarCheck className="text-orange-500"/><p>14 Feb, 2024</p></span>
+           <span className="flex gap-2 text-[#1CA8CB] items-center"><FaRegCalendarCheck className="text-orange-500"/><p>14 Feb, 2024</p></span>
             <a className="font-semibold text-xl" href="#">Get Best Advertised Your Side Pocket.</a>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Blogslideranddetail2rowcard = () => {
             <img className="rounded-[20px] w-[100%] h-[100%]" src={img2} alt="tour date" />
             </div>
            <div className="flex flex-col">
-           <span className="flex gap-2 text-blue-500 items-center"><FaRegCalendarCheck  className="text-orange-500"/><p>17 Sept, 2023</p></span>
+           <span className="flex gap-2 text-[#1CA8CB] items-center"><FaRegCalendarCheck  className="text-orange-500"/><p>17 Sept, 2023</p></span>
             <a className="font-semibold text-xl" href="#">Supervisor Disapproved of Latest Work.</a>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Blogslideranddetail2rowcard = () => {
             <img className="rounded-[20px] w-[100%] h-[100%]" src={img3} alt="tour date" />
             </div>
            <div className="flex flex-col">
-           <span className="flex gap-2 text-blue-500 items-center"><FaRegCalendarCheck className="text-orange-500"/><p>20   March, 2025</p></span>
+           <span className="flex gap-2 text-[#1CA8CB] items-center"><FaRegCalendarCheck className="text-orange-500"/><p>20   March, 2025</p></span>
             <a className="font-semibold text-xl" href="#">Sakura dreams and samurai tales.</a>
             </div>
           </div>

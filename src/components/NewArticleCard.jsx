@@ -19,7 +19,9 @@ const NewArticleCard = ({articleBg, articleTitle}) => {
                         <span className='text-[1rem] text-[#535353] font-normal'>September 6, 2024</span>
                     </div>
                 </div>
+                <Link to="/blogSlider">
                 <h3 className="text-[1.2rem] font-[700]"><a href="" className='hover:text-[#1CA8CB]'>{articleTitle}</a></h3>
+                </Link>
 
                 <div className='flex justify-between items-start lg:items-center'>
                     <Link to="/blogSlider">

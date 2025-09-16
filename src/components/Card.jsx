@@ -1,11 +1,10 @@
-import React from "react";
 import { BsClock } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 const Card = ({ image, title, price }) => {
   return (
-    <div className="bg-white border rounded-3xl shadow-sm overflow-hidden flex flex-col mt-5 translate-y-0 hover:translate-y-[-5px] transition-all duration-300">
+    <div className="bg-white border rounded-3xl shadow-sm overflow-hidden flex flex-col mt-5 ">
       <img
         src={image}
         alt={title}
@@ -22,11 +21,18 @@ const Card = ({ image, title, price }) => {
           <span className="text-orange-500 text-lg">★★★★★</span>
           <span className="ml-2 text-gray-500 text-[14px]">(4.8 Rating)</span>
         </div>
-
-        <p className="text-[22px] font-semibold mt-2 text-gray-800">
-          ${price}
-          <span className="text-gray-500 text-[15px]">/ per person</span>
-        </p>
+        
+        <div className="flex items-center gap-2">
+          <span className="text-gray-500 text-[15px]">from</span>
+          <div>
+            <span className="text-[22px] font-semibold mt-2 text-gray-800">
+              ₦{price}
+            </span>
+            <span className="text-gray-500 text-[15px]">/ per person</span>
+          </div>
+          
+        </div>
+        
 
         <div className="flex items-center text-gray-500 text-sm mt-3">
           <BsClock className="w-4 h-4 mr-1" /> 10 Days

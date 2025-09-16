@@ -3,6 +3,7 @@ import { FaBars, FaBell, FaCreditCard, FaHome, FaPlaneDeparture, FaUser } from "
 import { BiSupport } from "react-icons/bi";
 import { IoMdCloseCircle } from "react-icons/io";
 import { RiMenuFold2Fill, RiMenuFoldFill } from "react-icons/ri";
+import brandLogo from "../assets/imgs/logo.svg"
 
 const UserProfile = () => {
   const [activeTab, setActiveTab] = useState("profile");
@@ -41,7 +42,7 @@ const UserProfile = () => {
       >
         {/* Logo + Hamburger */}
         <div className="flex items-center justify-between mb-8">
-          <img className={`md:cursor-pointer h-9 ${!sidebarOpen && "hidden"}`} src="https://turmet-react.vercel.app/assets/img/logo/white-logo.svg" alt="" />
+          <img className={`cursor-pointer h-9 ${!sidebarOpen && "hidden"}`} src={brandLogo} alt="" />
           <button
             className="p-2 rounded-md transition-all duration-500 text-white hover:bg-[#1CA8CB]"
             onClick={() => setSidebarOpen(!sidebarOpen)}

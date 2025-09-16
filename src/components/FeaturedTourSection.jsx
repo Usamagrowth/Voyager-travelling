@@ -74,31 +74,31 @@ const FeaturedTourSection = () => {
         }}
                 >
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/01.jpg" location="Netherland" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/destination/01.jpg" location="BROOKLYN NY" featureTourTitle="Brooklyn Beach Resort Tour" featuredTourPrice="$59.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                   <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/02.jpg" location="Thailand" featureTourTitle="5 Best Tips for an Amazing Molina Trip" featuredTourPrice="$49.00"/>
+                   <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/destination/02.jpg" location="CLEVELAND OH" featureTourTitle="Cleveland Beach Resort Tour" featuredTourPrice="$59.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/03.jpg" location="Austria" featureTourTitle="Discover Beautiful Moliva: Natures Paradise" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/destination/03.jpg" location="SACRAMENTO CA" featureTourTitle="California Beach Resort Tour" featuredTourPrice="$59.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/04.jpg" location="Singerpore" featureTourTitle="Best Time Ever to Explore Molinas Nature" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/destination/04.jpg" location="LONDON UK" featureTourTitle="London Chumphon Town Tour" featuredTourPrice="$59.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/05.jpg" location="Maldives" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/destination/06.jpg" location="PERTH AU" featureTourTitle="Perth Beach Resort Tour" featuredTourPrice="$59.00"/>
                 </SwiperSlide>
                 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/06.jpg" location="Bahamas" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/destination/07.jpg" location="AMSTERDAM ND" featureTourTitle="Amsterdam Beach Resort Tour" featuredTourPrice="$59.00"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/feature/07.jpg" location="Finland" featureTourTitle="Bathing and Kayaking at Nonrival Beach" featuredTourPrice="$49.00"/>
+                    <FeaturedTourCard locationBg="https://turmet-react.vercel.app/assets/img/destination/04.jpg" location="TORONTO CA" featureTourTitle="Toronto Beach Resort Tour" featuredTourPrice="$59.00"/>
                 </SwiperSlide>
             </Swiper>
         </div>

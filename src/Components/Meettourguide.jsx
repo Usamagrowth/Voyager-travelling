@@ -1,8 +1,5 @@
-import React from "react";
 import { FiShare2 } from "react-icons/fi";
 import { FaXTwitter, FaInstagram, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
-import ButtonSecondary from "./utilities/ButtonSecondary";
-import ButtonPrimary from "./utilities/ButtonPrimary";
 
 const guides = [
   {
@@ -87,7 +84,7 @@ const Guides = () => {
   <a href="#" className="bg-black text-white p-2 rounded-full hover:bg-teal-500/70"><FaXTwitter size={16} /></a>
   <a href="#" className="bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white p-2 rounded-full hover:bg-teal-500/70"><FaInstagram size={16} /></a>
   <a href="#" className="bg-blue-600 text-white p-2 rounded-full hover:bg-teal-500/70"><FaLinkedinIn size={16} /></a>
-  <a href="#" className="bg-blue-500 text-white p-2 rounded-full hover:bg-teal-500/70"><FaFacebookF size={16} /></a>
+  <a href="#" className="bg-[#1CA8CB] text-white p-2 rounded-full hover:bg-teal-500/70"><FaFacebookF size={16} /></a>
 </div>
 
               </div>

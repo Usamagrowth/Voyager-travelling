@@ -263,12 +263,12 @@ const [checkOut, setCheckOut] = useState("");
 
 
   const baseFares = {
-  "Lagos-Abuja": 50000,
-  "Lagos-Port Harcourt": 45000,
-  "Abuja-Port Harcourt": 40000,
-  "Lagos-London": 250000,
-  "Abuja-London": 240000,
-  "Lagos-New York": 300000,
+  "Lagos-Abuja": 98000,
+  "Lagos-Port Harcourt": 95000,
+  "Abuja-Port Harcourt": 80000,
+  "Lagos-London": 650000,
+  "Abuja-London": 640000,
+  "Lagos-New York": 700000,
 };
 
 // Normalize route (so Lagos-Abuja === Abuja-Lagos)
@@ -278,7 +278,7 @@ const normalizeRoute = (from, to) => {
 
 const calculatePrice = (from, to, passengers, tripType, luggage) => {
   const routeKey = normalizeRoute(from, to);
-  let basePrice = baseFares[routeKey] || 60000; // default if route not found
+  let basePrice = baseFares[routeKey] || 80000; // default if route not found
 
   // Multiply for return trip
   if (tripType === "return") basePrice *= 2;
@@ -574,7 +574,10 @@ const calculatePrice = (from, to, passengers, tripType, luggage) => {
                       {/* show passengers input for return trips */}
                       {tripType === "return" && (
                         <div>
-                          <input
+                          
+
+                          <div className="relative w-full mt-2">
+                            <input
                             type="number"
                             min={1}
                             value={passengers}
@@ -582,19 +585,28 @@ const calculatePrice = (from, to, passengers, tripType, luggage) => {
                             placeholder="Passengers"
                             className="w-full border rounded-lg p-2 mt-2"
                           />
+                            <span className="absolute right-20 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none">
+                              Passengers
+                            </span>
+                          </div>
                         </div>
                       )}
 
                       {/* Extra luggage */}
                       <div>
+                        <div className="relative w-full mt-2">
                         <input
                           type="number"
                           min={0}
                           value={luggage}
                           onChange={(e) => setLuggage(Number(e.target.value))}
-                          placeholder="Extra luggage (kg)"
-                          className="w-full border rounded-lg p-2 mt-2"
+                          placeholder="Extra luggage"
+                          className="w-full border rounded-lg p-2 pr-10" // add padding-right so text doesn't overlap
                         />
+                        <span className="absolute right-20 top-1/2 -translate-y-1/2 text-gray-500 pointer-events-none">
+                          KG
+                        </span>
+                      </div>
                         <p className="text-sm text-gray-500 mt-1">
                           Each kg of luggage costs <span className="font-semibold">₦5000</span>.
                         </p>
@@ -724,7 +736,7 @@ const calculatePrice = (from, to, passengers, tripType, luggage) => {
                   ) : (
                     <Button
                       onClick={() => {
-                        window.location.href = "/register";
+                        window.location.href = "/authPage";
                       }}
                     >
                       Proceed

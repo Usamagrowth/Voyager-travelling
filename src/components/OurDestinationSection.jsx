@@ -80,31 +80,31 @@ const OurDestinationSection = () => {
         }}
                 >
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/01.jpg" destinationTitle="New Zealand" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://i.postimg.cc/wj13qLjh/life-s-captured-sparks-wdmubbjp1z-Q-unsplash.jpg" destinationTitle="United States" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/02.jpg" destinationTitle="The Amazon" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://i.postimg.cc/dVCTYp62/italy.jpg" destinationTitle="Italy" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/03.jpg" destinationTitle="New Zealand" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://i.postimg.cc/fTJ8xWWM/France.jpg" destinationTitle="France"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/04.jpg" destinationTitle="The Amazon" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://i.postimg.cc/ZKBLWfjR/japan.jpg" destinationTitle="Japan" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/05.jpg" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://i.postimg.cc/YSn34Jcv/united-kingdom.jpg" destinationTitle="United Kingdom"/>
                 </SwiperSlide>
                 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/06.jpg" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://i.postimg.cc/zBHnyvSQ/Australia.jpg" destinationTitle="Australia"/>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <OurDestinationCard destinationImage="https://turmet-react.vercel.app/assets/img/destination/new/07.jpg" destinationTitle="Los Angelis" destinationNo="Hotel 1"/>
+                    <OurDestinationCard destinationImage="https://i.postimg.cc/GpVDnrwx/Canada.jpg" destinationTitle="Canada"/>
                 </SwiperSlide>
             </Swiper>
         </div>

@@ -1,19 +1,15 @@
-import React from 'react'
 import { CiHeart } from 'react-icons/ci'
 import { CiLocationOn } from 'react-icons/ci'
 import { FaStar } from 'react-icons/fa'
 import { CiClock2 } from 'react-icons/ci'
 import { CiUser } from 'react-icons/ci'
-import {FaArrowRight } from 'react-icons/fa'
-import {FaArrowLeft } from 'react-icons/fa'
-import BookingButton from './utilities/BookingButton'
 import ButtonSecondary from './utilities/ButtonSecondary'
 import { Link } from 'react-router-dom'
 
 
 
 
-export default function TourCard({ location,cardpics,people,days,resorts,button,duration, price, rating }) {
+export default function TourCard({ location, cardpics, people, days, resorts, button, duration, price, rating }) {
     return(
         
        <section>

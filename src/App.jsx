@@ -19,6 +19,8 @@ import ContactPage from "./pages/ContactPage"
 import { Route, Routes } from 'react-router-dom'
 import GlobalHeader from './Components/GlobalHeader'
 import BookingPage from "./pages/BookingPage"
+import UserProfile from "./pages/UserProfile"
+import AuthPage from './pages/AutPage'
 
 
 
@@ -42,6 +44,8 @@ function App() {
         <Route path='/blogSlider' element={<BlogWithSliderPages></BlogWithSliderPages>}/>
         <Route path='/blogDetails' element={<BlogDetailsPage></BlogDetailsPage>}/>
         <Route path='/contactPage' element={<ContactPage></ContactPage>}/>
+        <Route path='/userProfile' element={<UserProfile></UserProfile>}/>
+        <Route path='/authPage' element={<AuthPage></AuthPage>}/>
       </Routes>
     </section>
   )

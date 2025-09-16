@@ -19,10 +19,10 @@ const NewsArticleSection = () => {
             </section>
     
             <div className='grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
-                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/04.jpg" articleTitle="Ultimate Guide to Planning Your Dream Vacation"/>
-                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/05.jpg" articleTitle="Unforgettable Adventures Travel Agency Bucket List Experiences"/>
-                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/06.jpg" articleTitle="Exploring Culture and way Cuisine Travel Agency"/>
-                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/07.jpg" articleTitle="Travel Agency is they Best Foodie Destinations"/>
+                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/04.jpg" articleTitle="The Magic of Sunrise at Poon Hill"/>
+                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/05.jpg" articleTitle="Why Travel is the Best Investment"/>
+                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/06.jpg" articleTitle="Tips for Stress-Free Travel"/>
+                <NewArticleCard articleBg="https://turmet-react.vercel.app/assets/img/news/07.jpg" articleTitle="Discovering Hidden Gems"/>
             </div>
         </div>
   )
