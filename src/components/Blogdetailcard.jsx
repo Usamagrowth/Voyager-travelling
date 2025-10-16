@@ -124,14 +124,14 @@ const Blogdetailcard = () => {
     <form action="#" className="flex w-fit flex-col gap-5">
     <h5 className="text-2xl font-semibold">Leave A Comments</h5>
     <span className="flex gap-5">
-    <div className="flex h-[50px] border border-blue-500 p-2 rounded-[20px]">
+    <div className="flex h-[50px] border border-[#1CA8CB] p-2 rounded-[20px]">
     <input type="text" placeholder="Your Name" className="outline-none w-[100%]" required />
     </div>
-     <div className="flex h-[50px] border border-blue-500 p-2 rounded-[20px]">
+     <div className="flex h-[50px] border border-[#1CA8CB] p-2 rounded-[20px]">
     <input type="text" placeholder="Your Email" className="outline-none w-[100%]" required />
     </div>
     </span>
-     <div className="flex h-[100px] border border-blue-500 p-2 rounded-[20px]">
+     <div className="flex h-[100px] border border-[#1CA8CB] p-2 rounded-[20px]">
      <textarea name="message" id="" placeholder="Messages" className="w-[100%]" />
      </div>
      <button type="submit" className="w-fit flex gap-3 items-center bg-[#1CA8CB] text-white p-3 rounded-[30px] font-semibold">post comment <GrLinkNext /></button>

@@ -107,4 +107,4 @@ const TeamMemberSection = () => {
   )
 }
 
-export default TeamMemberSection
+export default TeamMemberSection;
