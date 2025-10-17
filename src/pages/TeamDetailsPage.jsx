@@ -1,12 +1,10 @@
-import { useState } from "react";
-import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io';
-import TeamCard from "../Components/TeamCard";
 import GlobalHeader from "../Components/GlobalHeader";
+import TeamCard from "../Components/TeamCard";
 
 
 export default function TeamDetailsPage() {
