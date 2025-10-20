@@ -1,5 +1,3 @@
-import React from "react";
-
 const AnimatedButton = ({ text = "Contact Us →", delay = 650, onClick }) => {
   return (
     <button
